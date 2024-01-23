@@ -15,41 +15,48 @@
   <body>
     <nav>
       <ul class="menu-nike">
-        <a href="#inicio" onclick="changeActive(this)">
-          <li>
-            <div>INÍCIO</div>
-          </li>
-        </a>
-        <a href="#sobreEvento" onclick="changeActive(this)" class="sobreEvento">
-          <li>
-            <div>SOBRE O EVENTO</div>
-          </li>
-        </a>
-        <a href="#percurso" onclick="changeActive(this)">
-          <li>
-            <div class="percurso">PERCURSO</div>
-          </li>
-        </a>
-        <a href="#sobreKit" onclick="changeActive(this)" class="sobreKit">
-          <li>
-            <div>SOBRE O KIT</div>
-          </li>
-        </a>
-        <a href="#regulamento" onclick="changeActive(this)">
-          <li>
-            <div>REGULAMENTO</div>
-          </li>
-        </a>
-        <a href="#conosco" onclick="changeActive(this)" class="conosco">
-          <li>
-            <div>FALE CONOSCO</div>
-          </li>
-        </a>
-        <a href="">
-          <li>
-            <div>FAQ</div>
-          </li>
-        </a>
+        <li>
+          <div>
+            <a href="#inicio" onclick="changeActive(this)"> INÍCIO </a>
+          </div>
+        </li>
+        <li>
+          <div class="sobreEvento">
+            <a href="#evento" onclick="changeActive(this)"> SOBRE O EVENTO </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="percurso">
+            <a href="#percurso" onclick="changeActive(this)"> PERCURSO </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="sobreKit">
+            <a href="#sobreKit" onclick="changeActive(this)" >
+              SOBRE O KIT
+            </a>
+          </div>
+        </li>
+
+        <li>
+          <div>
+            <a href="#regulamento" onclick="changeActive(this)">REGULAMENTO </a>
+          </div>
+        </li>
+
+        <li>
+          <div class="conosco">
+            <a href="#conosco" onclick="changeActive(this)">FALE CONOSCO
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#faq"> FAQ </a>
+          </div>
+        </li>
       </ul>
     </nav>
 
@@ -119,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="portion-start-mobile" id="sobreEvento">
+      <div class="portion-start-mobile">
         <h4>LARGADAS</h4>
         <p>
           <strong>5K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
@@ -142,7 +149,7 @@
           <input type="button" value="INSCREVA-SE" />
         </div>
       </div>
-      <div class="meet-runners">
+      <div class="meet-runners" id="evento">
         <div class="meet">
           <h2>O ENCONTRO DE TODOS OS CORREDORES</h2>
           <p>
