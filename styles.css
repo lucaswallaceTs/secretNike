@@ -1,3 +1,16 @@
+.classe-5k{
+    background-color: #F4D21B !important;
+}
+.classe-10k{
+    background-color: #F19386 !important;
+}
+.classe-15k{
+    background-color: #F590EB !important;
+}
+.classe-21k{
+    background-color: rgba(164, 218, 116, 0.85) !important;
+}
+
 .fixed-size {
     max-width: 1920px;
     display: flex;
@@ -242,6 +255,10 @@ nav {
 }
 .banner-route{
     position: relative;
+    width: 50%;
+}
+.banner-route img{
+    width: 100%;
 }
 .km-run{
     color: #000;
