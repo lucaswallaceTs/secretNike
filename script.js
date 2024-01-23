@@ -20,11 +20,32 @@ updateCountdown();
 function mudarImagem(novaSrc) {
     var imagem = document.getElementById('bannerImage');
     imagem.src = novaSrc;
-  }
+}
+function mudarConteudoKmRunText(novoTexto, novaClasse) {
+    var kmRunText = document.getElementById('kmRunText');
+    kmRunText.textContent = novoTexto;
+    kmRunText.className = 'km-run' + novaClasse;
+}
 
-  function changeActive(link) {
+function changeActive(link) {
     document.querySelectorAll('nav a').forEach(function(a) {
       a.classList.remove('active');
     });
     link.classList.add('active');
-  }
+}
+document.querySelector('.run-5k').addEventListener('click', function() {
+    mudarConteudoKmRunText('5K', ' classe-5k');
+});
+
+document.querySelector('.run-10k').addEventListener('click', function() {
+    mudarConteudoKmRunText('10K', ' classe-10k');
+});
+
+document.querySelector('.run-15k').addEventListener('click', function() {
+    mudarConteudoKmRunText('15K', ' classe-15k');
+});
+
+document.querySelector('.run-21k').addEventListener('click', function() {
+    mudarConteudoKmRunText('21K', ' classe-21k');
+});
+  
