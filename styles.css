@@ -43,6 +43,7 @@ nav {
 .menu-nike a{
     text-decoration: none;
     color: #333;
+    padding: 23px 0px;
 }
 .menu-nike a.active {
     color: #222;
@@ -51,9 +52,16 @@ nav {
 .menu-nike li {
     list-style: none;
     margin: 23px 0px;
+    width: 150px;
 }
-.percurso{
-    margin-left: 27px;
+.sobreEvento{
+    width: 140px;
+}
+.sobreKit{
+    width: 100px;
+}
+.conosco{
+    width: 130px;
 }
 .column-initial {
     width: 350px;
@@ -482,8 +490,13 @@ form .message{
     .menu-nike ul{
         margin: 0;
     }
-    .menu-nike li{
+    .menu-nike li {
+        list-style: none;
         margin: 23px 27px 23px 0px;
+        width: 150px;
+    }
+    .menu-nike a{
+        padding: 23px 0px 19px 0px;
     }
     .sobreKit div{
         width: 100px;
