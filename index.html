@@ -166,7 +166,7 @@
       <div class="route"  id="percurso">
         <div class="banner-route">
           <img id="bannerImage" src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-3.svg" alt="" />
-          <div class="km-run">5K</div>
+            <div id="kmRunText" class="km-run">5K</div>
         </div>
         <div class="meet">
           <h2>CONHEÇA OS PERCURSOS</h2>
@@ -180,10 +180,10 @@
             vestibulum leo finibus vitae.
           </p>
           <div class="button-running">
-            <input type="button" value="5K" class="run-5k" onclick="mudarImagem('https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-3.svg')"/>
-            <input type="button" value="10K" class="run-10k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-21k.png?raw=true')"/>
-            <input type="button" value="15K" class="run-15k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-15k.jpg?raw=true')" />
-            <input type="button" value="21K" class="run-21k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-21k.png?raw=true')" />
+            <input type="button" value="5K" class="run-5k" onclick="mudarImagem('https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-3.svg'), mudarConteudoKmRunText('5K')"/>
+            <input type="button" value="10K" class="run-10k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-21k.png?raw=true'),mudarConteudoKmRunText('10K')"/>
+            <input type="button" value="15K" class="run-15k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-15k.jpg?raw=true'),mudarConteudoKmRunText('15K')" />
+            <input type="button" value="21K" class="run-21k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-21k.png?raw=true'), mudarConteudoKmRunText('21K')" />
           </div>
         </div>
       </div>
