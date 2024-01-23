@@ -47,7 +47,8 @@ nav {
 }
 .menu-nike a.active {
     color: #222;
-    border-bottom: 4px solid orange;
+    border-bottom: 4px solid orange;    
+    font-weight: 700;
   }
 .menu-nike li {
     list-style: none;
