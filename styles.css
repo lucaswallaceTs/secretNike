@@ -43,7 +43,7 @@ nav {
 .menu-nike a{
     text-decoration: none;
     color: #333;
-    padding: 23px 0px;
+    padding: 23px 0px 20px 0px;
 }
 .menu-nike a.active {
     color: #222;
