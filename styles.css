@@ -604,6 +604,7 @@ form .message{
         width: 100%;
         max-width: 350px;
         justify-content: space-between;
+        margin: auto;
     }
     .button-running input{
         margin: 0;
