@@ -1,903 +1,861 @@
-/* Estilo para o modal */
-/* Estilo para o modal que cobre a página inteira */
-.comercial {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: none;
-    overflow-x: hidden;
-    overflow-y: auto;
-    z-index: 10;
-}
-
-/* Conteúdo do modal */
-.modal-formulario {
-    background-color: #fff;
-    padding: 20px;
-    width: 90%;
-    max-width: 900px;
-    position: relative;
-    margin: 45px auto;
-    border-radius: 10px;
-}
-
-/* Estilo para o botão de fechar */
-.fechar {
-    position: absolute;
-    right: 20px;
-    top: 5px;
-    color: #888;
-    font-size: 32px;
-    cursor: pointer;
-    z-index: 1;
-}
-
-main {
-    background-color: #fff;
-}
-
-header {
-    background-color: black;
-    height: 30px;
-    width: 100%;
-}
-
-.apresentacao {
-    background: url("img/listras-back.svg");
-    background-size: cover;
-    background-position-y: -160px;
-    width: 100%;
-    padding-top: 140px;
-    padding-bottom: 220px;
-    background-color: #fff;
-}
-
-.wrapper-row-1 {
-    display: flex;
-    max-width: 1100px;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    padding: 0px 20px;
-}
-
-.column-1 {
-    flex-basis: calc(50% - 20px);
-    margin-right: 20px;
-}
-
-    .column-1 span {
-        color: #222;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 45px;
-    }
-
-    .column-1 p {
-        color: rgba(34, 34, 34, 0.70);
-        font-family: Ubuntu;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        margin: 25px 0px;
-    }
-
-.one-text {
-    display: none;
-}
-
-    .one-text p {
-        color: rgba(34, 34, 34, 0.70);
-        font-family: Ubuntu;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        margin: 25px 0px;
-    }
-
-button:not(.navbar-toggler):not(.close) {
-    cursor: pointer;
-    border: none;
-    padding: 21px 30px;
-    color: white;
-    font-weight: 700;
-    border-radius: 100px;
-    background: #09F;
-    box-shadow: 0px 0px 30px 0px rgba(0, 153, 255, 0.50);
-}
-
-.column-2 {
-    max-height: 515px;
-    display: flex;
-    align-items: end;
-    flex-basis: 50%;
-}
-
-.conquistas {
-    color: #222;
-    text-align: center;
-    font-family: Ubuntu;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 500;
-    margin-bottom: 50px;
-    line-height: 25px;
-}
-
-    .conquistas strong {
-        color: #09F;
-    }
-
-.numeros {
-    border-radius: 0px 0px 200px 0px;
-    background: url("https://cdn.ticketagora.com.br/ticketagora/site/marketing-blue.svg") rgba(0, 153, 255, 0.90) no-repeat;
-    background-size: cover;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.display-phone {
-    max-width: 1100px;
-    width: calc(100% - 40px);
-    padding: 0px 20px;
-    margin-top: -150px;
-}
-
-.wrapper-box {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.wrapper-box-2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-.row-box {
-    display: flex;
-    justify-content: center;
-}
-
-.box {
-    width: 248px;
-    margin: 2.5px;
-    height: 136px;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 5px;
-    box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.wrapper-textbox {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 180px;
-}
-
-    .wrapper-textbox p {
-        color: #FFF;
-        text-align: center;
-        font-family: Ubuntu;
-        font-size: 35px;
-        font-style: italic;
-        font-weight: 500;
-        line-height: 45px;
-    }
-
-.box span {
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    margin: 0px;
-    padding: 0px;
-}
-
-.box p {
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-    margin: 10px 0px 0px 0px;
-    padding: 0px;
-}
-
-.box img {
-    width: 15px;
-    height: 15px;
-}
-
-.atendimento {
-    margin-top: 100px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-}
-
-.equipe {
-    max-width: 1100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.circle {
-    flex-basis: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-    .circle img {
-        max-width: 100%;
-        height: auto;
-    }
-
-.equipe-phone {
-    display: none;
-}
-
-.text-time {
-    flex-basis: calc(50% - 20px);
-    color: #222;
-    margin-right: 20px;
-}
-
-    .text-time h3 {
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 40px;
-    }
-
-    .text-time strong {
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 40px;
-        color: #09F;
-    }
-
-    .text-time p {
-        text-align: justify;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        margin-top: 15px;
-    }
-
-.text-journey p {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: 30px;
-}
-
-.text-journey button {
-    margin-top: 20px;
-}
-
-.check-line img {
-    margin-right: 8px;
-}
-
-.check-line {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 14px 0px;
-}
-
-.app-ticket {
-    display: flex;
-    justify-content: center;
-    padding: 135px 20px;
-    background: url(https://cdn.ticketagora.com.br/ticketagora/site/Ellipse44.svg) #F4F4F4 no-repeat;
-    background-position-y: -1444px;
-    background-position-x: center;
-    background-size: 3800px;
-}
-
-.wrapper-phone {
-    display: flex;
-    max-width: 1100px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.phone {
-    border-radius: 494px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-    .phone img {
-        max-width: 100%;
-        flex-basis: 50%;
-    }
-
-.phone-text {
-    flex-basis: calc(50% - 20px);
-    margin-left: 20px;
-}
-
-    .phone-text h3 {
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 40px;
-    }
-
-    .phone-text strong {
-        color: #09F;
-    }
-
-    .phone-text p {
-        margin: 18px 0px;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px
-    }
-
-.modal-gray {
-    padding: 20px;
-    border-radius: 5px;
-    background: #F4F4F4;
-    margin-bottom: 15px;
-}
-
-    .modal-gray strong {
-        color: #222;
-    }
-
-.images-phone {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-    .images-phone img {
-        padding: 20px 8px 0px 8px;
-    }
-
-        .images-phone img:first-child {
-            padding-left: 0;
+.classe-5k {
+            background-color: rgba(255, 68, 0, 1) !important;
         }
 
-        .images-phone img:last-child {
-            padding-right: 0;
+        .classe-10k {
+            background-color: rgba(255, 68, 0, 1) !important;
         }
 
-    .images-phone .google {
-        padding: 24px 8px 0px 8px;
-        ;
-    }
+        .classe-15k {
+            background-color: rgba(255, 68, 0, 1) !important;
+        }
 
-.universo-ticket {
-    padding: 60px 0px 200px 0px;
-    display: flex;
-    justify-content: center;
-    background-image: url(https://cdn.ticketagora.com.br/ticketagora/site/Ellipse47.svg);
-    background-repeat: no-repeat;
-    background-position-y: -523px;
-    background-position-x: center;
-    background-size: 1907px;
-}
+        .classe-21k {
+            background-color: rgba(255, 68, 0, 1) !important;
+        }
+        .new-bg {
+            background-color: #060606 !important;
+            color: rgba(255, 68, 0, 1) !important;
+        }
 
-.wrapper-universe {
-    max-width: 1100px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-}
-
-    .wrapper-universe h2 {
-        text-align: center;
-        font-size: 35px !important;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 40px;
-        margin: auto auto 30px auto;
-        width: 100%;
-    }
-
-    .wrapper-universe strong {
-        color: #09F;
-    }
-
-    .wrapper-universe h4 {
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 500;
-        margin: auto;
-        line-height: 30px;
-    }
-
-    .wrapper-universe p {
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        margin: auto;
-    }
-
-.img-ticket {
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: center;
-}
-
-    .img-ticket img {
-        margin: 5px;
-    }
-
-.midia {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
-    flex-direction: column;
-    text-align: center;
-}
-
-    .midia h2 {
-        font-size: 35px !important;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 40px;
-        margin: 0px 0px 40px 0px;
-    }
-
-    .midia strong {
-        color: #09F;
-    }
-
-.wrapper-materias {
-    max-width: 1100px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-}
-.wrapper-materias img{
-    vertical-align: sub;
-    cursor: pointer;
-}
-    @media (max-width: 550px) {
-        main .apresentacao {
+        .fixed-size {
+            max-width: 1920px;
             display: flex;
             justify-content: center;
-            width: 100%;
-            padding-top: 60px;
-            padding-bottom: 50px;
-            background: none;
-        }
-
-        .wrapper-row-1 {
+            align-items: center;
+            margin: auto;
             flex-direction: column;
-            justify-content: center;
-            padding: 15px 15px 0px 15px;
+            padding: 0px 10px;
+            font-family: "Inter", sans-serif;
         }
 
-        .column-1 {
+        nav {
+            margin: 0;
+            padding: 0;
             width: 100%;
             display: flex;
-            flex-direction: column;
             justify-content: center;
+            border-bottom: 1px solid #E9E0D8;
+            font-family: "Inter", sans-serif;
+        }
+
+        .menu-nike {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            align-items: center;
             margin: 0;
         }
 
-            .column-1 p {
-                display: none
+            .menu-nike a {
+                text-decoration: none;
+                color: #333;
+                padding: 22px 0px;
             }
 
-        .one-text {
-            display: block;
-            margin-bottom: 120px;
-        }
-
-            .one-text p {
-                text-align: center;
-            }
-
-        .column-1 span {
-            font-size: 25px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 30px;
-            text-align: center;
-        }
-
-        .column-1 button {
-            margin: 30px 0px 0px 0px;
-            padding: 17px 15px;
-            font-size: 14px;
-        }
-
-        .column-2 {
-            width: 100%;
-            height: 310px;
-            border-radius: 100px 0px 50px 0px;
-        }
-
-            .column-2 .first-img {
-                width: 280px;
-                height: 330px;
-                display: flex;
-                align-items: end;
-                margin-left: 10px;
-            }
-
-                .column-2 .first-img img {
-                    height: 100%;
+                .menu-nike a.active {
+                    color: #222;
+                    border-bottom: 4px solid rgba(255, 68, 0, 1);
+                    font-weight: 700;
                 }
 
-        .numeros {
-            border-radius: 0px;
-            height: fit-content;
-            background: #09F;
+            .menu-nike li {
+                list-style: none;
+                margin: 23px 0px;
+            }
+
+        .sobreEvento {
+            width: 140px;
         }
 
-            .numeros .wrapper-box {
-                width: auto;
-            }
-
-            .numeros .display-phone {
-                display: flex;
-                overflow-x: scroll;
-                padding: 0px 10px;
-                width: 100%;
-                justify-content: flex-start;
-                margin-top: -150px;
-            }
-
-            .numeros .wrapper-textbox p {
-                font-size: 20px;
-                font-style: italic;
-                font-weight: 500;
-                line-height: 30px;
-                margin-bottom: 35px;
-                width: 100%;
-            }
-
-        .atendimento {
-            padding: 0px;
+        .sobreKit {
+            width: 100px;
         }
 
-            .atendimento .text-time h3 {
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 30px;
-            }
+        .conosco {
+            width: 130px;
+        }
 
-            .atendimento .text-time strong {
-                font-size: 25px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 30px;
+        .column-initial {
+            width: 350px;
+            display: flex;
+        }
+            .column-initial img {
+                width: 100%;
             }
+        .line-initial {
+            width: 1200px;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0px 0px 0px;
+        }
 
-            .atendimento .text-time p {
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 22px;
-            }
+        .portion-start {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
 
-            .atendimento .text-journey p {
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 20px;
-            }
+        .portion-start-mobile {
+            display: none;
+        }
 
-            .atendimento .check-line {
-                display: flex;
-                text-align: start;
-                align-items: flex-start;
-                margin: 14px 0px;
-            }
+        .portion-start p {
+            margin: 0;
+        }
 
-        .circle {
+        .portion-start h4 {
+            font-size: 18px;
+            font-weight: 900;
+            text-align: right;
             width: 100%;
-            height: fit-content;
+            margin: 0px 0px 8px 0px;
         }
 
-            .circle img {
-                width: 100%;
-                height: auto;
-            }
-
-        .app-ticket {
-            padding: 10px;
-        }
-
-            .app-ticket .modal-gray {
-                padding: 20px 25px;
-                text-align: center;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 22px;
-            }
-
-            .app-ticket .phone {
-                display: none;
-            }
-
-            .app-ticket .phone-text {
-                width: 100%;
-            }
-
-                .app-ticket .phone-text h3 {
-                    font-size: 25px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 30px;
-                }
-
-                .app-ticket .phone-text p {
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 22px;
-                }
-
-            .app-ticket .images-phone {
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .app-ticket .text-journey button {
-                margin-top: 20px;
-                padding: 17px 29px;
-                font-size: 14px;
-            }
-
-            .app-ticket .text-journey span {
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 25px;
-            }
-
-        body .universo-ticket {
-            margin: 10px 0px;
-            border-radius: 0;
-            padding: 0px;
-        }
-
-        .wrapper-universe {
-            width: 100%;
-            padding: 15px;
-        }
-
-            .wrapper-universe h2 {
-                font-size: 25px !important;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 30px;
-                padding: 10px;
-            }
-
-            .wrapper-universe h4 {
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 22px;
-            }
-
-            .wrapper-universe p {
-                width: 100%;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 22px;
-                padding: 0;
-            }
-    }
-
-    @media (max-width: 768px) {
-        .comercial {
-            z-index: 0;
-        }
-
-        .wrapper-row-1, .wrapper-equipe, .wrapper-phone {
-            flex-wrap: wrap;
-        }
-
-        .wrapper-row-1 {
-            flex-wrap: wrap;
+        .portion-start a {
+            border: none;
+            background-color: rgba(255, 68, 0, 1);
+            color: #000;
+            font-weight: 900;
+            width: 279px;
+            height: 64px;
+            font-size: 18px;
+            display: flex;
             justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
         }
 
-            .wrapper-row-1 .column-1 {
-                flex-basis: 100%;
-            }
-
-            .wrapper-row-1 .column-2 {
-                margin-top: 50px;
-                justify-content: center;
-            }
-
-        .column-2 .first-img img {
+        .portion-start-mobile a {
+            border: none;
+            background-color: rgba(255, 68, 0, 1);
+            color: #000;
+            font-weight: 900;
             width: 100%;
+            height: 64px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .conquistas {
-            padding: 0px 0px 10px 0px;
-            margin-bottom: 10px;
+        .subscribe {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
         }
 
-            .conquistas span {
-                font-size: 25px;
-                font-style: normal;
-                font-weight: 500;
+            .subscribe p {
+                margin: 23px 0px 16px 0px;
+                font-weight: 600; 
             }
 
-        .wrapper-textbox {
-            margin-top: 0px;
-            margin-bottom: 0px;
-            padding-bottom: 0px;
+        .banner-1 {
+            margin: 40px 0px 0px 0px;
+            display: flex;
         }
 
-            .wrapper-textbox p {
-                font-size: 25px;
-            }
+        .banner-1-mobile {
+            display: none;
+        }
 
-        .numeros {
+        .accountant {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #09F;
-            background-image: none;
-            border-radius: 0px;
+            margin-top: 59px;
+            width: 100%;
         }
 
-        .display-phone {
+            .accountant p {
+                margin: 0;
+            }
+
+        .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+        .style-countdown {
+            display: flex;
             flex-direction: column;
             justify-content: center;
-            margin-top: -140px;
+            align-items: center;
         }
 
-        .numeros-boxes {
-            display: flex;
-            overflow-x: scroll;
-        }
-
-        .wrapper-box {
-            width: auto;
-        }
-
-        .wrapper-box-2 {
-            padding-top: 0px;
-            flex-basis: 100%;
-            margin-bottom: 20px;
-        }
-
-        .box {
-            margin-top: 5px;
-        }
-
-        .atendimento {
-            padding: 0px;
-            margin-top: 0px;
-        }
-
-            .atendimento .equipe {
-                padding: 0px;
-                display: flex;
-                flex-direction: column-reverse;
+            .style-countdown div {
+                font-size: 60px;
+                font-weight: 300;
+                margin: 0;
+                padding: 0;
             }
 
-        .equipe-desktop {
-            display: none;
-        }
-
-        .equipe-phone {
-            display: block;
-            flex-basis: 100%
-        }
-
-        .atendimento .text-time {
-            width: 100%;
-            padding: 30px 10px 10px 10px;
-            background-color: #fff;
-        }
-
-        .atendimento .text-time, .circle {
-            flex-basis: 100%;
-        }
-
-        .wrapper-universe p {
-            width: 100%;
-            padding: 0px 20px;
-        }
-
-        .img-ticket {
-            display: flex;
-            width: 100%;
-            overflow-x: scroll;
-            flex-wrap: nowrap;
-            justify-content: flex-start !important;
-        }
-
-        .wrapper-phone {
-            flex-direction: column-reverse;
-            justify-content: center;
-        }
-
-        .app-ticket {
-            background-color: white;
-        }
-
-        .phone-text {
-            margin-left: 0px;
-        }
-
-        .btn-blue {
-            display: flex;
-            justify-content: center;
-        }
-
-        .universo-ticket {
-            padding-top: 0px;
-        }
-
-        .midia {
-            margin-bottom: 30px;
-        }
-
-            .midia h2 {
-                font-size: 25px !important;
-                margin: 30px 0px 40px 0px;
+            .style-countdown p {
+                color: rgba(255, 68, 0, 1);
+                font-size: 14px;
+                font-weight: 400;
+                margin: 0px 0px 0px 0px;
             }
 
-            .midia .materias-ticket {
-                width: 95%;
-                display: flex;
+                .style-countdown p:first-child {
+                    display: block;
+                }
+
+                .style-countdown p:last-child {
+                    display: none;
+                }
+
+        .countdown strong {
+            font-size: 50px;
+            margin: 0px 36px;
+            height: 100px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .meet-runners {
+            display: flex;
+            max-width: 1200px;
+            width: 1200px;
+            background-color: #F3EFEB;
+            align-items: center;
+            margin-top: 58px;
+        }
+
+        .meet {
+            display: flex;
+            width: calc(50% - 112px);
+            padding: 0px 56px;
+            flex-direction: column;
+        }
+
+            .meet h2 {
+                font-size: 48px;
+                margin: 0px;
+                font-weight: 900;
+            }
+
+            .meet p {
+                font-weight: 400;
+                line-height: 28px;
+            }
+
+        .subs {
+            display: flex;
+            align-items: center;
+            color: rgba(255, 68, 0, 1);
+            font-weight: 700;
+        }
+
+            .subs img {
+                margin: 0px 0px 0px 16px;
+            }
+
+        .meet-banner {
+            width: 50%;
+        }
+
+            .meet-banner img {
+                width: 100%;
+                height: 100%;
+            }
+
+        .route {
+            margin: 49px 0px 48px 0px;
+            display: flex;
+            max-width: 1200px;
+            width: 1200px;
+            background-color: #F3EFEB;
+            align-items: center;
+        }
+
+        .button-running {
+            display: flex;
+            margin: 24px 0px 0px 0px;
+        }
+
+        .banner-route {
+            position: relative;
+            width: 50%;
+        }
+
+            .banner-route img {
+                width: 100%;
+            }
+
+        .km-run {
+            color: #000;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 900;
+            display: flex;
+            position: absolute;
+            background: rgba(255, 68, 0, 1);
+            width: 100px;
+            height: 100px;
+            align-items: center;
+            justify-content: center;
+            top: 0px;
+        }
+
+        .button-running input {
+            width: 82px;
+            height: 56px;
+            margin: 0px 16px 0px 0px;
+            border: none;
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 900;
+            cursor:pointer;
+        }
+
+        .run-5k {
+            background: rgba(255, 68, 0, 1);
+        }
+
+        .run-10k {
+            background: rgba(255, 68, 0, 1);
+        }
+
+        .run-15k {
+            background: rgba(255, 68, 0, 1);
+        }
+
+        .run-21k {
+            background: rgba(255, 68, 0, 1);
+        }
+
+        .pacaembu {
+            background: #FF5A00;
+            padding: 91px 40px;
+            max-width: calc(1200px - 80px);
+            width: calc(100% - 80px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 0px 48px 0px;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+            .pacaembu div {
+                width: 100px;
+            }
+
+            .pacaembu p {
+                color: #060606;
+                font-size: 64px;
+                font-weight: 900;
+                width: 50%;
+                margin: 0;
+                text-align: center;
+            }
+
+        .kit-runners {
+            display: flex;
+            max-width: 1200px;
+            width: 1200px;
+            background-color: #F3EFEB;
+            align-items: center;
+        }
+
+        .kit-items {
+            padding: 0px 56px;
+            width: calc(50% - 112px);
+        }
+
+            .kit-items h2 {
+                font-size: 48px;
+                font-weight: 900;
+                width: 250px;
+                margin: 0;
+            }
+
+            .kit-items p {
+                margin: 24px 0px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+        .banner-kit {
+            width: 50%;
+            margin-bottom: 80px;
+        }
+
+        .regulation {
+            max-width: 1200px;
+            margin-bottom: 48px;
+            width: 100%;
+        }
+
+        .title-regulation {
+            background: #060606;
+            font-size: 40px;
+            font-weight: 900;
+            padding: 20px 0px 20px 56px;
+            width: calc(100% - 56px);
+            margin-top: 48px;
+            color: #FFF;
+        }
+
+        .text-regulation {
+            border: 1px solid #E9E0D8;
+        }
+
+            .text-regulation p {
+                margin: 0;
+                height: 285px;
+                overflow-y: scroll;
+                padding-right: 40px;
+            }
+
+        .wrapper {
+            padding: 56px;
+        }
+
+        .text-regulation p::-webkit-scrollbar {
+            width: 11px;
+        }
+
+        .text-regulation p::-webkit-scrollbar-track {
+            background-color: #f1f1f1;
+        }
+
+        .text-regulation p::-webkit-scrollbar-thumb {
+            background-color: #000;
+            border-radius: 100px;
+            border: 1px solid #f1f1f1;
+        }
+
+        .formulario {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 48px;
+            align-items: center;
+            background-color: #F3EFEB;
+        }
+
+        .contact {
+            flex-basis: 50%;
+            padding: 65px 56px;
+            height: 100%;
+        }
+
+            .contact h2 {
+                font-size: 55px;
+                font-weight: 900;
+                margin: 0;
+                width: 50%;
+            }
+
+            .contact p {
+                font-size: 16px;
+                font-weight: 500;
+                margin: 24px 0px;
+            }
+
+        .wrapper-form {
+            background-color: rgba(255, 68, 0, 1);
+            flex-basis: 50%;
+            padding: 65px 56px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+            form label {
+                color: #FFF;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            form input {
+                width: 100%;
+                height: 56px;
+                border: none;
+                margin: 4px 0px 16px 0px;
+            }
+
+                form input:focus-visible {
+                    border: #000;
+                    outline: #000;
+                }
+
+                form input:last-child {
+                    font-weight: 900;
+                    font-size: 16px;
+                    background: #060606;
+                    width: 50%;
+                    color: #FFF;
+                    cursor: pointer;
+                }
+
+            form .message {
+                height: 126px;
+            }
+
+        .faq {
+            width: 100%;
+            max-width: calc(1200px - 112px);
+            background: #060606;
+            padding: 56px;
+            color: #FFF;
+        }
+
+            .faq h2 {
+                font-size: 40px;
+                font-weight: 900;
+                margin: 0;
+            }
+
+            .faq p {
+                font-size: 14px;
+                font-weight: 500;
+                margin: 16px 0px 32px 0px;
+            }
+
+            .faq input {
+                background: rgba(255, 68, 0, 1);
+                color: #FFF;
+                padding: 18px 24px;
+                border: none;
+                font-size: 16px;
+                font-weight: 900;
+                cursor: pointer;
+            }
+
+        @media (max-width: 768px) {
+            body {
+                margin: 0;
+            }
+
+            .fixed-size {
+                padding: 0;
+                margin: 0;
+            }
+
+            .menu-nike {
                 overflow-x: scroll;
+                justify-content: space-between;
             }
 
-        .wrapper-materias {
-            margin: 0;
-            padding: 0px 15px;
-        }
+                .menu-nike ul {
+                    margin: 0;
+                }
 
-            .wrapper-materias img {
-                margin-right: 5px;
+                .menu-nike li {
+                    list-style: none;
+                    margin: 23px 27px 23px 0px;
+                    width: 150px;
+                }
+
+                .menu-nike a {
+                    padding: 23px 0px 19px 0px;
+                }
+
+            .sobreKit div {
+                width: 100px;
             }
-    }
 
-    @media (max-width: 1024px) {
-        .column-2 .first-img {
-            margin-left: 0px;
+            .conosco div {
+                width: 125px;
+            }
+
+            .sobreEvento div {
+                width: 140px;
+            }
+
+            .percurso {
+                margin: 0;
+            }
+
+            .line-initial {
+                flex-wrap: wrap;
+                justify-content: left;
+                width: 100%;
+                padding: 0px 0px 0px 16px;
+            }
+
+            .column-initial {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .column-initial img{
+                width: 85%;
+            }
+
+            .banner-1 {
+                display: none;
+            }
+
+            .banner-1-mobile {
+                margin: 40px 0px 0px 0px;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            }
+
+                .banner-1-mobile img {
+                    width: calc(100% - 32px);
+                }
+
+            .accountant {
+                margin-top: 24px;
+            }
+
+            .style-countdown div {
+                font-size: 30px;
+            }
+
+            .style-countdown .countdown-date {
+                display: none;
+            }
+
+            .style-countdown p:last-child {
+                display: block;
+            }
+
+            .countdown strong {
+                margin: 0px 8px;
+                font-size: 42px;
+            }
+
+            .portion-start {
+                display: none;
+            }
+
+            .portion-start-mobile {
+                display: block;
+                width: calc(100% - 32px);
+            }
+
+                .portion-start-mobile h4 {
+                    font-weight: 900;
+                    font-size: 18px;
+                }
+
+                .portion-start-mobile p {
+                    margin: 0px 0px 5px 0px;
+                }
+
+            .meet-runners {
+                flex-wrap: wrap;
+                flex-direction: column;
+                width: 100%;
+                padding: 0px;
+                margin-top: 32px;
+            }
+
+            .meet-banner {
+                width: 100%;
+            }
+
+            .meet {
+                width: calc(100% - 32px);
+                padding: 40px 16px 0px 16px;
+            }
+
+                .meet h2 {
+                    font-size: 28px;
+                    width: 100%;
+                }
+
+            .subs {
+                padding-bottom: 42px;
+            }
+
+            .route {
+                flex-direction: column-reverse;
+                width: 100%;
+                margin: 0;
+            }
+
+            .banner-route {
+                width: 100%;
+                margin-top: 40px;
+            }
+
+                .banner-route img {
+                    width: 100%;
+                }
+
+            .button-running {
+                width: 100%;
+                max-width: 350px;
+                justify-content: space-between;
+                margin: auto;
+            }
+
+                .button-running input {
+                    margin: 0;
+                    width: 68px;
+                }
+
+            .subscribe {
+                align-items: flex-start;
+                margin-top: 35px;
+            }
+
+                .subscribe p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 24px;
+                }
+
+            .pacaembu {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                padding: 24px 0px;
+                margin: 40px 0px 0px 0px;
+                justify-content: center;
+                align-items: center;
+            }
+
+                .pacaembu div {
+                    width: 67px;
+                }
+
+                    .pacaembu div:last-child {
+                        width: 90px;
+                    }
+
+                .pacaembu p {
+                    font-size: 32px;
+                    width: 95%;
+                    margin: 52px 0px;
+                }
+
+            .kit-runners {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .kit-items {
+                width: calc(100% - 32px);
+                background: #F3EFEB;
+                padding: 40px 16px 0px 16px;
+                font-size: 14px;
+            }
+
+                .kit-items h2 {
+                    font-size: 28px;
+                    width: 150px;
+                    font-weight: 900;
+                    line-height: 30px;
+                }
+
+            .banner-kit {
+                width: 100%;
+                margin: 40px 0px 0px 0px;
+                background-color: #E9E0D8;
+            }
+
+                .banner-kit img {
+                    width: 100%;
+                    margin: 40px 0px 0px 0px;
+                    padding: 32px 0px;
+                    background: #E9E0D8;
+                }
+
+            .regulation {
+                width: 100%;
+                margin-top: 32px;
+            }
+
+            .title-regulation {
+                font-size: 28px;
+                margin: 0;
+            }
+
+            .text-regulation {
+                border: none;
+            }
+
+                .text-regulation p {
+                    margin: 0;
+                    height: 285px;
+                    overflow-y: scroll;
+                    padding-right: 40px;
+                    padding-right: 16px;
+                }
+
+            .wrapper {
+                padding: 24px 16px;
+            }
+
+            .contact {
+                width: calc(100% - 40px);
+                padding: 40px 0px;
+            }
+
+                .contact h2 {
+                    font-size: 28px;
+                }
+
+                .contact p {
+                    font-size: 14px;
+                    margin: 8px 0px;
+                }
+
+            .formulario {
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 0px;
+            }
+
+                .formulario label {
+                    font-size: 14px;
+                }
+
+            form input:last-child {
+                font-weight: 900;
+                font-size: 16px;
+                background: #060606;
+                width: 100%;
+            }
+
+            .wrapper-form {
+                width: calc(100% - 32px);
+                padding: 32px 16px;
+            }
+
+            .faq {
+                width: 100%;
+                background-color: #FFF;
+                padding: 0px 0px;
+                display: flex;
+                justify-content: center;
+            }
+
+                .faq h2 {
+                    font-size: 28px;
+                }
+
+                .faq p {
+                    font-size: 14px;
+                }
+
+                .faq input {
+                    width: 100%;
+                }
+
+            .box-faq {
+                background-color: #060606;
+                padding: 32px 24px;
+            }
         }
-    }
