@@ -238,6 +238,7 @@
                 font-size: 48px;
                 margin: 0px;
                 font-weight: 900;
+                        width: 80%;
             }
 
             .meet p {
@@ -671,7 +672,7 @@
 
                 .meet h2 {
                     font-size: 28px;
-                    width: 100%;
+                    width: 75%;
                 }
 
             .subs {
