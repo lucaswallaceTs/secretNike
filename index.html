@@ -14,299 +14,328 @@
   </head>
   <body>
     <nav>
-      <ul class="menu-nike">
-        <li>
-          <div>
-            <a href="#inicio" onclick="changeActive(this)"> INÍCIO </a>
-          </div>
-        </li>
-        <li>
-          <div class="sobreEvento">
-            <a href="#evento" onclick="changeActive(this)"> SOBRE O EVENTO </a>
-          </div>
-        </li>
+        <ul class="menu-nike">
+            <li>
+                <div>
+                    <a href="#inicio" onclick="changeActive(this)"> INÍCIO </a>
+                </div>
+            </li>
+            <li>
+                <div class="sobreEvento">
+                    <a href="#evento" onclick="changeActive(this)"> SOBRE O EVENTO </a>
+                </div>
+            </li>
 
-        <li>
-          <div class="percurso">
-            <a href="#percurso" onclick="changeActive(this)"> PERCURSO </a>
-          </div>
-        </li>
+            <li>
+                <div class="percurso">
+                    <a href="#percurso" onclick="changeActive(this)"> PERCURSO </a>
+                </div>
+            </li>
 
-        <li>
-          <div class="sobreKit">
-            <a href="#sobreKit" onclick="changeActive(this)" >
-              SOBRE O KIT
-            </a>
-          </div>
-        </li>
+            <li>
+                <div class="sobreKit">
+                    <a href="#sobreKit" onclick="changeActive(this)">
+                        SOBRE O KIT
+                    </a>
+                </div>
+            </li>
 
-        <li>
-          <div>
-            <a href="#regulamento" onclick="changeActive(this)">REGULAMENTO </a>
-          </div>
-        </li>
+            <li>
+                <div>
+                    <a href="#regulamento" onclick="changeActive(this)">REGULAMENTO </a>
+                </div>
+            </li>
 
-        <li>
-          <div class="conosco">
-            <a href="#conosco" onclick="changeActive(this)">FALE CONOSCO
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#faq"> FAQ </a>
-          </div>
-        </li>
-      </ul>
+            <li>
+                <div class="conosco">
+                    <a href="#conosco" onclick="changeActive(this)">
+                        FALE CONOSCO
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a href="#faq"> FAQ </a>
+                </div>
+            </li>
+        </ul>
     </nav>
 
     <div class="fixed-size">
-      <div class="line-initial" id="inicio">
-        <div class="column-initial">
-          <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/icon-nike.svg" alt="" />
-          <h2>NIKE SP RUN</h2>
-          <p>O encontro de todos os corredores</p>
+        <div class="line-initial" id="inicio">
+            <div class="column-initial">
+                <img src="https://cdn.ticketagora.com.br/ticketagora/site/icon-nike-run.svg" alt="" />
+            </div>
+            <div class="portion-start">
+                <h4>LARGADAS</h4>
+                <p>
+                    <strong>5K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                    05010-010
+                </p>
+                <p>
+                    <strong>10K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                    05010-010
+                </p>
+                <p>
+                    <strong>15K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                    05010-010
+                </p>
+                <p>
+                    <strong>21K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                    05010-010
+                </p>
+                <div class="subscribe">
+                    <p>Dia 05/05/2024 · 08h</p>
+                    <a href="https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=1922&origem=ticketsports">INSCREVA-SE</a> 
+                </div>
+            </div>
         </div>
-        <div class="portion-start">
-          <h4>LARGADAS</h4>
-          <p>
-            <strong>5K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-            05010-010
-          </p>
-          <p>
-            <strong>10K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-            05010-010
-          </p>
-          <p>
-            <strong>15K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-            05010-010
-          </p>
-          <p>
-            <strong>21K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-            05010-010
-          </p>
-          <div class="subscribe">
-            <p>Dia 05/05/2024 · 08h</p>
-            <input type="button" value="INSCREVA-SE" />
-          </div>
-        </div>
-      </div>
 
-      <div class="banner-1">
-        <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-1.svg" alt="" />
-      </div>
-      <div class="banner-1-mobile">
-        <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-1-mobile.svg" alt="" />
-      </div>
-      <div class="accountant" >
-        <p>NOSSO ENCONTRO COMEÇA EM:</p>
-        <div class="countdown">
-          <div class="style-countdown">
-            <div id="days"></div>
-            <p class="countdown-date">Dias</p>
-            <p>DIAS</p>
-          </div>
-          <strong>.</strong>
-          <div class="style-countdown">
-            <div id="hours"></div>
-            <p class="countdown-date">Horas</p>
-            <p>HOR</p>
-          </div>
-          <strong>.</strong>
-          <div class="style-countdown">
-            <div id="minutes"></div>
-            <p class="countdown-date">Minutos</p>
-            <p>MIN</p>
-          </div>
-          <strong>.</strong>
-          <div class="style-countdown">
-            <div id="seconds"></div>
-            <p class="countdown-date">Segundos</p>
-            <p>SEG</p>
-          </div>
+        <div class="banner-1">
+            <img src="https://cdn.ticketagora.com.br/ticketagora/site/banner-nike.svg" alt="" />
         </div>
-      </div>
-      <div class="portion-start-mobile">
-        <h4>LARGADAS</h4>
-        <p>
-          <strong>5K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-          05010-010
-        </p>
-        <p>
-          <strong>10K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-          05010-010
-        </p>
-        <p>
-          <strong>15K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-          05010-010
-        </p>
-        <p>
-          <strong>21K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
-          05010-010
-        </p>
-        <div class="subscribe">
-          <p>Dia 05/05/2024 · 08h</p>
-          <input type="button" value="INSCREVA-SE" />
+        <div class="banner-1-mobile">
+            <img src="https://cdn.ticketagora.com.br/ticketagora/site/banner-nike.svg" alt="" />
         </div>
-      </div>
-      <div class="meet-runners" id="evento">
-        <div class="meet">
-          <h2>O ENCONTRO DE TODOS OS CORREDORES</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-            laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
-            augue eu, condimentum varius eros. Praesent cursus magna ut risus
-            interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
-            condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
-            varius sagittis viverra. Maecenas elementum eleifend augue, vel
-            vestibulum leo finibus vitae.
-          </p>
-          <div class="subs">
-            INSCREVA-SE
-            <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/arrow-orange.svg" alt="" />
-          </div>
+        <div class="accountant">
+            <p>NOSSO ENCONTRO COMEÇA EM:</p>
+            <div class="countdown">
+                <div class="style-countdown">
+                    <div id="days"></div>
+                    <p class="countdown-date">Dias</p>
+                    <p>DIAS</p>
+                </div>
+                <strong>.</strong>
+                <div class="style-countdown">
+                    <div id="hours"></div>
+                    <p class="countdown-date">Horas</p>
+                    <p>HOR</p>
+                </div>
+                <strong>.</strong>
+                <div class="style-countdown">
+                    <div id="minutes"></div>
+                    <p class="countdown-date">Minutos</p>
+                    <p>MIN</p>
+                </div>
+                <strong>.</strong>
+                <div class="style-countdown">
+                    <div id="seconds"></div>
+                    <p class="countdown-date">Segundos</p>
+                    <p>SEG</p>
+                </div>
+            </div>
         </div>
-        <div class="meet-banner">
-          <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-2.svg" alt="" />
-        </div>
-      </div>
-      <div class="route"  id="percurso">
-        <div class="banner-route">
-          <img id="bannerImage" src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-3.svg" alt="" />
-            <div id="kmRunText" class="km-run">5K</div>
-        </div>
-        <div class="meet">
-          <h2>CONHEÇA OS PERCURSOS</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-            laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
-            augue eu, condimentum varius eros. Praesent cursus magna ut risus
-            interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
-            condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
-            varius sagittis viverra. Maecenas elementum eleifend augue, vel
-            vestibulum leo finibus vitae.
-          </p>
-          <div class="button-running">
-            <input type="button" value="5K" class="run-5k" onclick="mudarImagem('https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-3.svg'), mudarConteudoKmRunText('5K')"/>
-            <input type="button" value="10K" class="run-10k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-21k.png?raw=true'),mudarConteudoKmRunText('10K')"/>
-            <input type="button" value="15K" class="run-15k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-15k.jpg?raw=true'),mudarConteudoKmRunText('15K')" />
-            <input type="button" value="21K" class="run-21k" onclick="mudarImagem('https://github.com/lucaswallaceTs/secretNike/blob/main/imagens/banner-21k.png?raw=true'), mudarConteudoKmRunText('21K')" />
-          </div>
-        </div>
-      </div>
-      <div class="pacaembu">
-        <div>NIKE SP RUN</div>
-        <p>A GENTE SE ENCONTRA NO PACAEMBU.</p>
-        <div>CORRE SP <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/icon-nike2.svg" alt=""> 2024</div>
-      </div>
-      <div class="kit-runners" id="sobreKit">
-        <div class="kit-items">
-          <h2>ITENS DOS KITS</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-            laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
-            augue eu, condimentum varius eros. Praesent cursus magna ut risus
-            interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
-            condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
-            varius sagittis viverra. Maecenas elementum eleifend augue, vel
-            vestibulum leo finibus vitae.
-          </p>
-          <div class="button-running">
-            <input type="button" value="5K" class="run-5k" />
-            <input type="button" value="10K" class="run-10k" />
-            <input type="button" value="15K" class="run-15k" />
-            <input type="button" value="21K" class="run-21k" />
-          </div>
-        </div>
-        <div class="banner-kit">
-          <img src="https://raw.githubusercontent.com/lucaswallaceTs/secretNike/6a1779ddb6eca4fa65b5b9fb2370051f09184e5c/imagens/banner-kit.svg" alt="" />
-        </div>
-      </div>
-      <div class="regulation" id="regulamento">
-        <div class="title-regulation">REGULAMENTO</div>
-        <div class="text-regulation">
-          <div class="wrapper">
+        <div class="portion-start-mobile">
+            <h4>LARGADAS</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
-              laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
-              augue eu, condimentum varius eros. Praesent cursus magna ut risus
-              interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
-              condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
-              varius sagittis viverra. Maecenas elementum eleifend augue, vel
-              vestibulum leo finibus vitae. Aliquam at nunc ac velit egestas
-              aliquam. Nulla feugiat urna risus, a aliquet arcu malesuada eu.
-              Quisque quis libero bibendum, lobortis diam eu, dapibus erat.
-              Pellentesque habitant morbi tristique senectus et netus et malesuada
-              fames ac turpis egestas. Vivamus egestas urna vel quam facilisis, a
-              aliquet justo tempor. Suspendisse turpis quam, tempor nec hendrerit
-              non, dignissim aliquam ipsum. Vivamus mauris nisl, faucibus sed
-              dignissim sed, cursus non nisl. Curabitur elementum diam nisi,
-              consectetur lacinia urna imperdiet et. Integer rutrum egestas nisl,
-              quis efficitur nulla hendrerit non. Mauris et ligula ac nunc
-              ultrices interdum at vitae nisl. Phasellus non sem ut lacus mollis
-              laoreet. Proin scelerisque faucibus ante, id euismod odio interdum
-              posuere. Donec vitae elementum quam. Etiam ac faucibus eros, id
-              fringilla lorem. Nunc congue lectus nec tristique condimentum.
-              Vestibulum quis sapien vel felis aliquam maximus at at ante. Quisque
-              vitae diam efficitur, euismod mauris id, gravida tortor. Maecenas
-              posuere, neque eu tincidunt lobortis, erat lacus auctor turpis, sit
-              amet porttitor magna enim in tortor. Nunc nec risus a sem mattis
-              accumsan.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Etiam in laoreet metus, in volutpat odio. Nam lacus tellus, mollis
-              vitae augue eu, condimentum varius eros. Praesent cursus magna ut
-              risus interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam
-              quis condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
-              varius sagittis viverra. Maecenas elementum eleifend augue, vel
-              vestibulum leo finibus vitae. Aliquam at nunc ac velit egestas
-              aliquam. Nulla feugiat urna risus, a aliquet arcu malesuada eu.
-              Quisque quis libero bibendum, lobortis diam eu, dapibus erat.
-              Pellentesque habitant morbi tristique senectus et netus et malesuada
-              fames ac turpis egestas. Vivamus egestas urna vel quam facilisis, a
-              aliquet justo tempor. Suspendisse turpis quam, tempor nec hendrerit
-              non, dignissim aliquam ipsum. Vivamus mauris nisl, faucibus sed
-              dignissim sed, cursus non nisl. Curabitur elementum diam nisi,
-              consectetur lacinia urna imperdiet et. Integer rutrum egestas nisl,
-              quis efficitur nulla hendrerit non. Mauris et ligula ac nunc
-              ultrices interdum at vitae nisl. Phasellus non sem ut lacus mollis
-              laoreet. Proin scelerisque faucibus ante, id euismod odio interdum
-              posuere. Donec vitae elementum quam. Etiam ac faucibus eros, id
-              fringilla lorem. Nunc congue lectus nec tristique condimentum.
-              Vestibulum quis sapien vel felis aliquam maximus at at ante. Quisque
-              vitae diam efficitur, euismod mauris id, gravida tortor. Maecenas
-              posuere, neque eu tincidunt lobortis, erat lacus auctor turpis, sit
-              amet porttitor magna enim in tortor. Nunc nec risus a sem mattis
-              accumsan.
+                <strong>5K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                05010-010
             </p>
-          </div>
+            <p>
+                <strong>10K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                05010-010
+            </p>
+            <p>
+                <strong>15K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                05010-010
+            </p>
+            <p>
+                <strong>21K</strong> - Rua Lorem ipsum, 24 - Bairro, São Paulo - SP,
+                05010-010
+            </p>
+            <div class="subscribe">
+                <p>Dia 05/05/2024 · 08h</p>
+                <a href="https://site.ticketsports.com.br/Inscricao/categoria.aspx?__idEvento=1922&origem=ticketsports">INSCREVA-SE</a>
+            </div>
         </div>
-      </div>
-      <div class="formulario" id="conosco">
-        <div class="contact">
-          <h2>FALE CONOSCO</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae</p>
+        <div class="meet-runners" id="evento">
+            <div class="meet">
+                <h2>
+                    NÃO É SÓ
+                </h2>
+                <h2>
+                    UMA CORRIDA.
+                </h2>
+                <h2>
+                    É O NOSSO RITUAL.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+                    laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+                    augue eu, condimentum varius eros. Praesent cursus magna ut risus
+                    interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
+                    condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
+                    varius sagittis viverra. Maecenas elementum eleifend augue, vel
+                    vestibulum leo finibus vitae.
+                </p>
+                <div class="subs">
+                    INSCREVA-SE
+                    <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/arrow-orange.svg" alt="" />
+                </div>
+            </div>
+            <div class="meet-banner">
+                <img src="https://cdn.ticketagora.com.br/ticketagora/site/banner-run.svg" alt="" />
+            </div>
         </div>
-        <div class="wrapper-form">
-          <form action="">
-            <label for="">NOME*</label>
-            <input type="text" name="" id="">
-            <label for="">E-MAIL*</label>
-            <input type="email" name="" id="">
-            <label for="">TELEFONE*</label>
-            <input type="tel" name="" id="">
-            <label for="">MENSAGEM*</label>
-            <input type="text" name="" id="" class="message">
-            <input type="button" value="ENVIAR MENSAGEM">
-          </form>
+        <div class="route" id="percurso">
+            <div class="banner-route">
+                <img id="bannerImage" src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-5k.svg" alt="" />
+                <div id="kmRunText" class="km-run">5K</div>
+            </div>
+            <div class="meet">
+                <h2>
+                    4 DISTÂNCIAS.
+                    1 LOCAL DE CHEGADA. CONHEÇA OS PERCURSOS:
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+                    laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+                    augue eu, condimentum varius eros. Praesent cursus magna ut risus
+                    interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
+                    condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
+                    varius sagittis viverra. Maecenas elementum eleifend augue, vel
+                    vestibulum leo finibus vitae.
+                </p>
+                <div class="button-running">
+                    <input type="button"
+                           value="5K"
+                           class="run-5k" />
+
+                    <input type="button"
+                           value="10K"
+                           class="run-10k" />
+
+                    <input type="button"
+                           value="15K"
+                           class="run-15k" />
+
+                    <input 
+                           data-classe="classe-21k"
+                           type="button"
+                           value="21K"
+                           class="run-21k" />
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="faq" id="faq">
-        <div class="box-faq">
-          <h2>FAQ</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae augue eu, condimentum varius eros. Praesent cursus magna ut risus interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla varius sagittis viverra. Maecenas elementum eleifend augue, vel vestibulum leo finibus vitae. ttis accumsan.
-          </p>
-          <input type="button" value="FALAR NO WHATSAPP">
+        <div class="kit-runners" id="sobreKit">
+            <div class="kit-items">
+                <h2>ITENS DOS KITS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+                    laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+                    augue eu, condimentum varius eros. Praesent cursus magna ut risus
+                    interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
+                    condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
+                    varius sagittis viverra. Maecenas elementum eleifend augue, vel
+                    vestibulum leo finibus vitae.
+                </p>
+                <div class="button-running">
+                    <input type="button" value="5K" class="run-5k" />
+                    <input type="button" value="10K" class="run-10k" />
+                    <input type="button" value="15K" class="run-15k" />
+                    <input type="button" value="21K" class="run-21k" />
+                </div>
+            </div>
+            <div class="banner-kit">
+                <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-kit-nike.svg" alt="" />
+            </div>
         </div>
-      </div>
+        <div class="regulation" id="regulamento">
+            <div class="title-regulation">REGULAMENTO</div>
+            <div class="text-regulation">
+                <div class="wrapper">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+                        laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+                        augue eu, condimentum varius eros. Praesent cursus magna ut risus
+                        interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
+                        condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
+                        varius sagittis viverra. Maecenas elementum eleifend augue, vel
+                        vestibulum leo finibus vitae. Aliquam at nunc ac velit egestas
+                        aliquam. Nulla feugiat urna risus, a aliquet arcu malesuada eu.
+                        Quisque quis libero bibendum, lobortis diam eu, dapibus erat.
+                        Pellentesque habitant morbi tristique senectus et netus et
+                        malesuada fames ac turpis egestas. Vivamus egestas urna vel quam
+                        facilisis, a aliquet justo tempor. Suspendisse turpis quam, tempor
+                        nec hendrerit non, dignissim aliquam ipsum. Vivamus mauris nisl,
+                        faucibus sed dignissim sed, cursus non nisl. Curabitur elementum
+                        diam nisi, consectetur lacinia urna imperdiet et. Integer rutrum
+                        egestas nisl, quis efficitur nulla hendrerit non. Mauris et ligula
+                        ac nunc ultrices interdum at vitae nisl. Phasellus non sem ut
+                        lacus mollis laoreet. Proin scelerisque faucibus ante, id euismod
+                        odio interdum posuere. Donec vitae elementum quam. Etiam ac
+                        faucibus eros, id fringilla lorem. Nunc congue lectus nec
+                        tristique condimentum. Vestibulum quis sapien vel felis aliquam
+                        maximus at at ante. Quisque vitae diam efficitur, euismod mauris
+                        id, gravida tortor. Maecenas posuere, neque eu tincidunt lobortis,
+                        erat lacus auctor turpis, sit amet porttitor magna enim in tortor.
+                        Nunc nec risus a sem mattis accumsan.Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Etiam in laoreet metus, in volutpat
+                        odio. Nam lacus tellus, mollis vitae augue eu, condimentum varius
+                        eros. Praesent cursus magna ut risus interdum, et auctor nulla
+                        pharetra. Proin a sem arcu. Etiam quis condimentum dui. Quisque
+                        bibendum eros nec porta lacinia. Nulla varius sagittis viverra.
+                        Maecenas elementum eleifend augue, vel vestibulum leo finibus
+                        vitae. Aliquam at nunc ac velit egestas aliquam. Nulla feugiat
+                        urna risus, a aliquet arcu malesuada eu. Quisque quis libero
+                        bibendum, lobortis diam eu, dapibus erat. Pellentesque habitant
+                        morbi tristique senectus et netus et malesuada fames ac turpis
+                        egestas. Vivamus egestas urna vel quam facilisis, a aliquet justo
+                        tempor. Suspendisse turpis quam, tempor nec hendrerit non,
+                        dignissim aliquam ipsum. Vivamus mauris nisl, faucibus sed
+                        dignissim sed, cursus non nisl. Curabitur elementum diam nisi,
+                        consectetur lacinia urna imperdiet et. Integer rutrum egestas
+                        nisl, quis efficitur nulla hendrerit non. Mauris et ligula ac nunc
+                        ultrices interdum at vitae nisl. Phasellus non sem ut lacus mollis
+                        laoreet. Proin scelerisque faucibus ante, id euismod odio interdum
+                        posuere. Donec vitae elementum quam. Etiam ac faucibus eros, id
+                        fringilla lorem. Nunc congue lectus nec tristique condimentum.
+                        Vestibulum quis sapien vel felis aliquam maximus at at ante.
+                        Quisque vitae diam efficitur, euismod mauris id, gravida tortor.
+                        Maecenas posuere, neque eu tincidunt lobortis, erat lacus auctor
+                        turpis, sit amet porttitor magna enim in tortor. Nunc nec risus a
+                        sem mattis accumsan.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="formulario" id="conosco">
+            <div class="contact">
+                <h2>FALE CONOSCO</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+                    laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+                </p>
+            </div>
+            <div class="wrapper-form">
+                <form id="form-fale-conosco">
+                    <label for="">NOME*</label>
+                    <input type="text" id="name" name="nome" />
+                    <label for="">E-MAIL*</label>
+                    <input type="email" id="email" name="email"/>
+                    <label for="">TELEFONE*</label>
+                    <input type="tel" id="phone" name="phone"/>
+                    <label for="">MENSAGEM*</label>
+                    <input type="text" id="message" class="message" name="message" />
+                    <input id="submit-fale-conosco" type="button" value="ENVIAR MENSAGEM" />
+                </form>
+            </div>
+        </div>
+        <div class="faq" id="faq">
+            <div class="box-faq">
+                <h2>FAQ</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in
+                    laoreet metus, in volutpat odio. Nam lacus tellus, mollis vitae
+                    augue eu, condimentum varius eros. Praesent cursus magna ut risus
+                    interdum, et auctor nulla pharetra. Proin a sem arcu. Etiam quis
+                    condimentum dui. Quisque bibendum eros nec porta lacinia. Nulla
+                    varius sagittis viverra. Maecenas elementum eleifend augue, vel
+                    vestibulum leo finibus vitae. ttis accumsan.
+                </p>
+                <input type="button" value="FALAR NO WHATSAPP" />
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
   </body>
