@@ -263,11 +263,12 @@ body {
                 font-size: 48px;
                 margin: 0px;
                 font-weight: 900;
-                width: 80%;
+                width: 83%;
             }
 
             .meet p {
                 font-weight: 400;
+                width: 85%;
                 line-height: 28px;
             }
 
@@ -289,6 +290,7 @@ body {
 
         .meet-banner {
             width: 50%;
+            display: flex;
         }
 
             .meet-banner img {
@@ -648,7 +650,7 @@ body {
 
             .line-initial {
                 flex-wrap: wrap;
-                justify-content: left;
+                justify-content: center;
                 width: 100%;
             }
 
@@ -661,13 +663,17 @@ body {
                 .column-initial img {
                     width: 85%;
                 }
-
+            .portion-start {
+                margin: 40px 0px 0px 0px;
+                justify-content: center;
+                align-items: center;
+            }
             .banner-1 {
                 display: none;
             }
 
             .banner-1-mobile {
-                margin: 40px 0px 0px 0px;
+                margin: 0px;
                 display: flex;
                 width: 100%;
                 justify-content: center;
@@ -698,23 +704,6 @@ body {
                 font-size: 42px;
             }
 
-            .portion-start {
-                display: none;
-            }
-
-            .portion-start-mobile {
-                display: block;
-                width: calc(100% - 32px);
-            }
-
-                .portion-start-mobile h4 {
-                    font-weight: 900;
-                    font-size: 18px;
-                }
-
-                .portion-start-mobile p {
-                    margin: 0px 0px 5px 0px;
-                }
 
             .meet-runners {
                 flex-wrap: wrap;
@@ -735,10 +724,11 @@ body {
 
                 .meet h2 {
                     font-size: 28px;
-                    width: 75%;
                 }
-
-            .subs {
+                .meet p {
+                    width: 100%;
+                }
+                    .subs {
                 padding-bottom: 42px;
             }
 
@@ -761,7 +751,6 @@ body {
                 width: 100%;
                 max-width: 350px;
                 justify-content: space-between;
-                margin: auto;
             }
 
                 .button-running input {
@@ -819,7 +808,6 @@ body {
 
                 .kit-items h2 {
                     font-size: 28px;
-                    width: 150px;
                     font-weight: 900;
                     line-height: 30px;
                 }
