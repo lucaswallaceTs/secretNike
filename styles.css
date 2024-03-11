@@ -567,8 +567,8 @@
 
             .faq h2 {
                 font-size: 40px;
-                font-weight: 900;
-                margin: 0;
+                font-weight: 900;               
+                margin: 16px 0px 32px 0px;
             }
 
             .faq p {
