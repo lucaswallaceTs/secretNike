@@ -1,4 +1,4 @@
-body {
+        body {
             margin: 0;
             padding: 0;
         }
@@ -350,10 +350,12 @@ body {
                 text-align: center;
                 font-size: 24px;
                 font-weight: 900;
-                cursor: pointer;
                 display: flex;
                 justify-content: center;
             }
+        .run input {
+            width: 82px;
+        }
 
         .kit-corredor-basico {
             background: rgba(255, 68, 0, 1);
@@ -369,9 +371,6 @@ body {
         .run {
             flex-direction: row;
         }
-            .run input {
-                width: 56px;
-            }
 
         .color-nike {
             background: rgba(255, 68, 0, 1);
@@ -459,7 +458,7 @@ body {
             .text-regulation p {
                 margin: 0;
                 height: 285px;
-                overflow-y: scroll;
+                /*overflow-y: scroll;*/
                 padding-right: 40px;
             }
 
@@ -486,20 +485,24 @@ body {
             width: 100%;
             max-width: 1200px;
             margin-bottom: 48px;
-            align-items: center;
+            align-items: stretch;
             background-color: #F3EFEB;
+            flex-direction: column;
         }
 
         .contact {
-            flex-basis: 50%;
-            padding: 65px 56px;
+            flex-basis: 100%;
+            /* padding: 65px 56px; */
             height: 100%;
+            display: flex;
+            align-items: center;
         }
 
             .contact h2 {
                 font-size: 55px;
                 font-weight: 900;
                 margin: 0;
+                text-align: center;
                 width: 50%;
             }
 
@@ -587,6 +590,9 @@ body {
         .patrocinador {
             max-width: 1200px;
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
             .patrocinador h2 {
@@ -596,6 +602,9 @@ body {
                 background-color: #000;
                 color: #FFF;
                 padding: 10px 56px;
+                width: calc(100% - 112px);
+                display: flex;
+                justify-content: center;
             }
 
         .logo-patrocinador {
@@ -606,6 +615,9 @@ body {
         @media (max-width: 768px) {
             body {
                 margin: 0;
+            }
+            .run input {
+                width: 56px;
             }
 
             .fixed-size {
@@ -838,7 +850,7 @@ body {
                 .text-regulation p {
                     margin: 0;
                     height: 285px;
-                    overflow-y: scroll;
+                    /*overflow-y: scroll;*/
                     padding-right: 40px;
                     padding-right: 16px;
                 }
@@ -848,12 +860,15 @@ body {
             }
 
             .contact {
-                width: calc(100% - 40px);
-                padding: 40px 0px;
+                width: 100%;
+                padding: 40px 0px 0px 0px;
+                display: flex;
+                flex-direction: column;
             }
 
                 .contact h2 {
                     font-size: 28px;
+                    margin-bottom: 25px;
                 }
 
                 .contact p {
@@ -885,7 +900,6 @@ body {
 
             .faq {
                 width: 100%;
-                background-color: #FFF;
                 padding: 0px 0px;
                 display: flex;
                 justify-content: center;
@@ -893,6 +907,7 @@ body {
 
                 .faq h2 {
                     font-size: 28px;
+                    margin-bottom: 25px;
                 }
 
                 .faq p {
