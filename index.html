@@ -13,392 +13,956 @@
     <title>Document</title>
   </head>
   <body>
-   <nav>
-        <ul class="menu-nike">
-            <li>
-                <div>
-                    <a href="#inicio" onclick="changeActive(this)"> INÍCIO </a>
-                </div>
-            </li>
-            <li>
-                <div class="sobreEvento">
-                    <a href="#evento" onclick="changeActive(this)"> SOBRE O EVENTO </a>
-                </div>
-            </li>
+    <nav>
+      <ul class="menu-nike">
+          <li>
+              <div>
+                  <a href="#inicio" onclick="changeActive(this)"> INÍCIO </a>
+              </div>
+          </li>
+          <li>
+              <div class="sobreEvento">
+                  <a href="#evento" onclick="changeActive(this)"> SOBRE O EVENTO </a>
+              </div>
+          </li>
 
-            <li>
-                <div class="percurso">
-                    <a href="#percurso" onclick="changeActive(this)"> PERCURSO </a>
-                </div>
-            </li>
+          <li>
+              <div class="percurso">
+                  <a href="#percurso" onclick="changeActive(this)"> PERCURSO </a>
+              </div>
+          </li>
 
-            <li>
-                <div class="sobreKit">
-                    <a href="#sobreKit" onclick="changeActive(this)"> SOBRE O KIT </a>
-                </div>
-            </li>
+          <li>
+              <div class="sobreKit">
+                  <a href="#sobreKit" onclick="changeActive(this)"> SOBRE O KIT </a>
+              </div>
+          </li>
 
-            <li>
-                <div>
-                    <a href="#regulamento" onclick="changeActive(this)">REGULAMENTO </a>
-                </div>
-            </li>
+          <li>
+              <div>
+                  <a href="#regulamento" onclick="changeActive(this)">REGULAMENTO </a>
+              </div>
+          </li>
 
-            <li>
-                <div class="conosco">
-                    <a href="#conosco" onclick="changeActive(this)"> FALE CONOSCO </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="#faq"> FAQ </a>
-                </div>
-            </li>
-        </ul>
-    </nav>
+          <li>
+              <div class="conosco">
+                  <a href="#conosco" onclick="changeActive(this)"> FALE CONOSCO </a>
+              </div>
+          </li>
+          <li>
+              <div>
+                  <a href="#faq"> FAQ </a>
+              </div>
+          </li>
+      </ul>
+  </nav>
 
-    <div class="fixed-size">
-        <div class="line-initial" id="inicio">
-            <div class="column-initial">
-                <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/icon-nike-run.svg"
-                     alt="" />
-            </div>
-            <div class="portion-start">
-                <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=38315"
-                   target="_blank">INSCREVA-SE</a>
-                <p>Dia 05.05.2024</p>
-            </div>
-        </div>
+  <div class="fixed-size">
+      <div class="line-initial" id="inicio">
+          <div class="column-initial">
+              <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/icon-nike-run.svg"
+                   alt="" />
+          </div>
+          <!--<div class="portion-start">
+              <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=38315"
+                 target="_blank">INSCREVA-SE</a>
+              <p>Dia 05.05.2024</p>
+          </div>-->
+      </div>
 
-        <div class="banner-1">
-            <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-nike.svg"
-                 alt="" />
-        </div>
-        <div class="banner-1-mobile">
-            <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-nike.svg"
-                 alt="" />
-        </div>
-        <div class="accountant">
-            <div class="subscribe">
-                <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=38315"
-                   target="_blank">INSCREVA-SE</a>
-                <p>12/03 até 13/03: Abertura das inscrições para pré registrados.</p>
-                <p>14/03: Abertura para público geral.</p>
-                <p class="desconto">
-                    *Desconto de 20% para clientes que utilizarem o cartão de crédito Itaú Uniclass no momento da compra. Benefício limitado.
+      <div class="banner-1">
+          <!--<img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-nike.svg"
+       alt="" />-->
+          <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/image-adiado.svg"
+               alt="" />
+      </div>
+      <div class="banner-1-mobile">
+          <!--<img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-nike.svg"
+       alt="" />-->
+          <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/image-adiado.svg"
+               alt="" />
+      </div>
+      <div class="comunicado">
+          <p>
+              A Nike informa que a corrida Nike São Paulo Run, originalmente
+              agendada para o dia 5 de maio, terá uma nova data devido a uma
+              recomendação do Governo Federal.
+          </p>
 
-                </p>
-            </div>
-            <h4>NOSSA PROVA COMEÇA EM:</h4>
-            <div class="countdown">
-                <div class="style-countdown">
-                    <div id="days"></div>
-                    <p class="countdown-date">Dias</p>
-                    <p>DIAS</p>
-                </div>
-                <strong>.</strong>
-                <div class="style-countdown">
-                    <div id="hours"></div>
-                    <p class="countdown-date">Horas</p>
-                    <p>HOR</p>
-                </div>
-                <strong>.</strong>
-                <div class="style-countdown">
-                    <div id="minutes"></div>
-                    <p class="countdown-date">Minutos</p>
-                    <p>MIN</p>
-                </div>
-                <strong>.</strong>
-                <div class="style-countdown">
-                    <div id="seconds"></div>
-                    <p class="countdown-date">Segundos</p>
-                    <p>SEG</p>
-                </div>
-            </div>
-        </div>
-        <div class="meet-runners" id="evento">
-            <div class="meet">
-                <h2>O ENCONTRO DE TODOS OS CORREDORES</h2>
-                <p>
-                    Chegou a hora de mostrar seu corre: no dia 05 de maio vamos dominar São Paulo. 
-                    Largaremos de 4 diferentes regiões e vamos chegar juntos ao Pacaembu. 
-                    Escolha sua distância entre 5k, 10k, 15k ou 21k. 
-                    A linha de chegada é só o seu começo.
+          <p>
+              O pedido do Ministério do Estado de Gestão e Inovação em Serviços Públicos direcionado
+              à Prefeitura de São Paulo solicita que as 220 cidades que sediarão provas do concurso não realizem grandes
+              eventos no dia 5 de maio, a fim de facilitar o deslocamento dos candidatos para a realização das provas.
+          </p>
 
-                </p>
-                <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=38315"
-                   target="_blank">
-                    <div class="subs">
-                        INSCREVA-SE
-                        <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/arrow-orange.svg"
-                             alt="" />
-                    </div>
-                </a>
-            </div>
-            <div class="meet-banner">
-                <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-run.svg" alt="" />
-            </div>
-        </div>
-        <div class="route" id="percurso">
-            <div class="banner-route">
-                <img id="bannerImage"
-                     src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-5k.svg"
-                     alt="" />
-                <!--<div id="kmRunText" class="km-run">5K</div>-->
-            </div>
-            <div class="meet">
-                <h2>4 DISTÂNCIAS.</h2>
-                <h2>4 PONTOS</h2>
-                <h2>DE LARGADA.</h2>
-                <h2>1 LOCAL</h2>
-                <h2>DE CHEGADA.</h2>
+          <p>
+              Em consequência dessa nova diretriz, a Nike São Paulo Run será remarcada para uma nova data
+              que ainda será divulgada. Em respeito aos corredores, o evento seguirá a mesma mecânica
+              com 4 distâncias, 4 pontos de largada e 1 local de chegada. Os corredores que já se inscreveram
+              e não puderem participar da corrida poderão solicitar reembolso por meio de canal a ser disponibilizado
+              em breve, junto com o anúncio da nova data.
+          </p>
 
-                <p>Vamos correr pelas ruas de São Paulo, do Centro ao Sul, de Leste a Oeste. Escolha sua distância entre 5k, 10k, 15k e 21k e aguarde que em breve os trajetos serão divulgados.</p>
-                <!--<div class="button-running run">
-                    <input type="button" value="5K" class="run-5k color-nike" />
+          <p>
+              Os treinos em preparação para a corrida, antes agendados duas vezes
+              por semana, também serão atualizados com nova frequência e datas.
+          </p>
 
-                    <input type="button" value="10K" class="run-10k color-nike" />
+          <p>
+              A Nike reconhece o inconveniente causado, no entanto, reiteramos nosso respeito
+              pelas decisões governamentais e continuamos entusiasmados em trazer de volta eventos
+              emblemáticos para a comunidade de corredores.
+          </p>
 
-                    <input type="button" value="15K" class="run-15k color-nike" />
+          <p>
+              <strong>Preencha o formulário abaixo com a sua pretensão para o evento</strong>
+          </p>
+          <div class="portion-start">
+              <a href="https://forms.gle/BT3rgVZNMyhQEkcS9"
+                 target="_blank">FORMULÁRIO</a>
+          </div>
+      </div>
+      <!--<div class="accountant">
+          <div class="subscribe">
+              <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=38315"
+                 target="_blank">INSCREVA-SE</a>
+              <p>12/03 até 13/03: Abertura das inscrições para pré registrados.</p>
+              <p>14/03: Abertura para público geral.</p>
+              <p class="desconto">
+                  *Desconto de 20% para clientes que utilizarem o cartão de crédito Itaú Uniclass no momento da compra. Benefício limitado.
+              </p>
+          </div>
+          <h4>NOSSA PROVA COMEÇA EM:</h4>
+          <div class="countdown">
+              <div class="style-countdown">
+                  <div id="days"></div>
+                  <p class="countdown-date">Dias</p>
+                  <p>DIAS</p>
+              </div>
+              <strong>.</strong>
+              <div class="style-countdown">
+                  <div id="hours"></div>
+                  <p class="countdown-date">Horas</p>
+                  <p>HOR</p>
+              </div>
+              <strong>.</strong>
+              <div class="style-countdown">
+                  <div id="minutes"></div>
+                  <p class="countdown-date">Minutos</p>
+                  <p>MIN</p>
+              </div>
+              <strong>.</strong>
+              <div class="style-countdown">
+                  <div id="seconds"></div>
+                  <p class="countdown-date">Segundos</p>
+                  <p>SEG</p>
+              </div>
+          </div>
+      </div>
+      <div class="meet-runners" id="evento">
+          <div class="meet">
+              <h2>O ENCONTRO DE TODOS OS CORREDORES</h2>
+              <p>
+                  No dia 05.05.24 temos um encontro marcado. 
+                  Não importa o ponto de partida, o seu pace, ou por que você corre. 
+                  Largaremos de 4 diferentes regiões e no final, mas todos os caminhos nos levam ao mesmo lugar: 
+                  na Mercado Livre Arena Pacaembu. A linha de chegada é só o começo.
 
-                    <input data-classe="classe-21k"
-                           type="button"
-                           value="21K"
-                           class="run-21k color-nike" />
-                </div>-->
-            </div>
-        </div>
-        <div class="kit-runners" id="sobreKit">
-            <div class="kit-items">
-                <h2>NOSSOS KITS</h2>
-                <div class="kit-basico">
-                    <p>Inscrição para a prova</p>
-                    <p>01 Camiseta Nike</p>
-                    <p>01 Gymsack exclusiva</p>
-                    <p>01 Medalha</p>
-                </div>
-                <div class="kit-premium">
-                    <p>Inscrição para a prova</p>
-                    <p>01 Camiseta Nike</p>
-                    <p>01 Gymsack exclusiva</p>
-                    <p>01 Medalha</p>
-                    <p>01 Viseira Nike</p>
-                </div>
-                <div class="button-running">
-                    <input type="button" value="KIT CORREDOR" class="kit-corredor-basico" />
-                    <input type="button" value="KIT CORREDOR PREMIUM" class="kit-corredor-premium" />
-                </div>
-            </div>
-            <div id="kitImage">
-                <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/kit_corredor.svg"
-                     alt="" />
-            </div>
-        </div>
-        <div class="regulation" id="regulamento">
-            <div class="title-regulation">REGULAMENTO</div>
-            <div class="text-regulation">
-                <div class="wrapper">
-                    <p>
-                        Em breve.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="formulario" id="conosco">
-            <div class="contact">
-                <h2>FALE CONOSCO</h2>
-            <div class="wrapper-form">
-                <form id="form-fale-conosco">
-                    <label for="">NOME*</label>
-                    <input type="text" id="name" name="nome" />
-                    <label for="">E-MAIL*</label>
-                    <input type="email" id="email" name="email" />
-                    <label for="">TELEFONE*</label>
-                    <input type="tel" id="phone" name="phone" />
-                    <label for="">MENSAGEM*</label>
-                    <input type="text" id="message" class="message" name="message" />
-                    <input id="submit-fale-conosco"
-                           type="button"
-                           value="ENVIAR MENSAGEM" />
-                </form>
-            </div>
-        </div>
-        <div class="faq" id="faq">
-            <div class="box-faq">
-                <h2>FAQ</h2>
-                <a href="https://storagefileta.blob.core.windows.net/ticketagora/arquivos/evento/38315/06a08f01f6a541d98893fd64800dd970638457648829392868.pdf" target="_blank">
-                    <input type="button" value="VISUALIZAR FAQ" />
-                </a>
-                
-            </div>
-        </div>
-        <div class="patrocinador">
-            <h2>PATROCINADOR</h2>
-            <div class="logo-patrocinador">
-                <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/logo_itau_nike.svg"
-                     alt="" />
-            </div>
-        </div>
-    </div>
-     <script type="text/javascript" src="script.js" >
-       const runningDate = new Date("2024-05-05T08:00:00");
+              </p>
+              <a href="https://site.ticketsports.com.br/Inscricao/Categoria.aspx?__idEvento=38315"
+                 target="_blank">
+                  <div class="subs">
+                      INSCREVA-SE
+                      <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/arrow-orange.svg"
+                           alt="" />
+                  </div>
+              </a>
+          </div>
+          <div class="meet-banner">
+              <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/banner-run.svg"
+                   alt="" />
+          </div>
+      </div>
+      <div class="route" id="percurso">
+          <div class="banner-route">
+              <img id="bannerImage"
+                   src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-5k.svg"
+                   alt="" />-->
+              <!--<div id="kmRunText" class="km-run">5K</div>-->
+          <!--</div>
+          <div class="meet">
+              <h2>4 DISTÂNCIAS.</h2>
+              <h2>4 PONTOS</h2>
+              <h2>DE LARGADA.</h2>
+              <h2>1 LOCAL</h2>
+              <h2>DE CHEGADA.</h2>
 
-function updateCountdown() {
-    const currentDate = new Date();
-    const difference = runningDate - currentDate;
+              <p>
+                  Vamos correr pelas ruas de São Paulo, do Centro ao Sul, de Leste a Oeste.
+                  Escolha sua distância entre 5k, 10k, 15k e 21k e aguarde que em breve os trajetos serão divulgados.
+              </p>
+              <p>Zona Oeste | 5km: Memorial da América Latina</p>
+              <p>Centro | 10km: Pateo do Collegio</p>
+              <p>Zona Leste | 15km: Parque da Mooca</p>
+              <p>Zona Sul | 21km: Assembleia Legislativa de São Paulo</p>-->
+              <!--<div class="button-running run">
+      <input type="button" value="5K" class="run-5k color-nike" />
 
-    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+      <input type="button" value="10K" class="run-10k color-nike" />
 
-    document.getElementById("days").innerHTML = days > 0 ? days : 0;
-    document.getElementById("hours").innerHTML = hours > 0 ? hours : 0;
-    document.getElementById("minutes").innerHTML = minutes > 0 ? minutes : 0;
-    document.getElementById("seconds").innerHTML = seconds > 0 ? seconds : 0;
-}
+      <input type="button" value="15K" class="run-15k color-nike" />
 
-setInterval(updateCountdown, 1000);
-updateCountdown();
+      <input data-classe="classe-21k"
+             type="button"
+             value="21K"
+             class="run-21k color-nike" />
+  </div>-->
+          <!--</div>
+      </div>
+      <div class="kit-runners" id="sobreKit">
+          <div class="kit-items">
+              <h2>NOSSOS KITS</h2>
+              <div class="kit-basico">
+                  <p>Inscrição para a prova</p>
+                  <p>01 Camiseta Nike</p>
+                  <p>01 Gymsack exclusiva</p>
+                  <p>01 Medalha</p>
+              </div>
+              <div class="kit-premium">
+                  <p>Inscrição para a prova</p>
+                  <p>01 Camiseta Nike</p>
+                  <p>01 Gymsack exclusiva</p>
+                  <p>01 Medalha</p>
+                  <p>01 Viseira Nike</p>
+              </div>
+              <div class="button-running">
+                  <input type="button" value="KIT CORREDOR" class="kit-corredor-basico" />
+                  <input type="button" value="KIT CORREDOR PREMIUM" class="kit-corredor-premium" />
+              </div>
+          </div>
+          <div id="kitImage">
+              <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/kit_corredor.svg"
+                   alt="" />
+          </div>
+      </div>-->
+      <div class="regulation" id="regulamento">
+          <div class="title-regulation">REGULAMENTO</div>
+          <div class="text-regulation">
+              <div class="wrapper">
+                  <div class="regulamento">
+                      <div>
+                          <strong>NIKE SÃO PAULO RUN</strong>
+                          <strong>REGULAMENTO</strong>
+                      </div>
 
-function mudarImagem(novaSrc) {
-    var imagem = document.getElementById("bannerImage");
-    imagem.src = novaSrc;
-}
+                      <p><strong>1. PROVA</strong></p>
+                      <p>
+                          <strong>
+                              1.1.
+                          </strong> A <strong>Nike Run</strong> será realizada na Cidade de São Paulo,
+                          nos endereços descritos na cláusula 3.1 abaixo, no dia 05 de maio de 2024,
+                          doravante denominada “corrida”.
+                      </p>
+                      <p>
+                          1.2. Os horários previstos para a largada da corrida estão previstos na cláusula 2.2. Estes horários,
+                          todavia, estão sujeitos à alterações em decorrência de eventuais problemas de ordem externa, tais
+                          como, tráfego intenso, falhas de comunicação ou suspensão no fornecimento de energia.
 
-function kitImagem(novoLink) {
-    var imagemKit = document.getElementById("kitImage").getElementsByTagName("img")[0];
-    imagemKit.src = novoLink;
-}
+                      </p>
+                      <p>
+                          1.3. A corrida será realizada considerando as distâncias de 05km, 10km, 15km e 21km. Os participantes
+                          não poderão realizar alterações de distância após a inscrição.
+                      </p>
+                      <p>
+                          1.4. A corrida é organizada pelas empresas FISIA COMÉRCIO DE PRODUTOS ESPORTIVOS S.A.,
+                          com sede na Cidade de São Paulo, Estado de São Paulo, na Rua Werner Siemens, 111, Prédio 1, 1º
+                          e 2º pavimentos, Lapa de Baixo, CEP 05069-010, inscrita no CNPJ/ME sob o n°
+                          59.546.515/0001-34 e X3M ENTRETENIMENTO S.A., com sede na Cidade do Rio de Janeiro,
+                          Estado do Rio de Janeiro, na Rua Álvaro Ramos, 260, apt. 201, Botafogo, CEP 22.280-110, inscrita
+                          no CNPJ/ME sob o nº. 07.265.942/0001-40. As empresas organizadoras da corrida poderão, em
+                          caso de necessidade técnica, impedimentos legais, situações de adequação do viário da cidade ou
+                          em atendimento às autoridades, alterar o percurso da prova ou horários e datas.
+                      </p>
+                      <p>
+                          1.5. O participante deverá estar atento aos meios de comunicação, informados no ato da inscrição da
+                          corrida, para receber possíveis atualizações e orientações sobre a corrida.
 
-function mudarConteudoKmRunText(novoTexto, novaClasse) {
-    var kmRunText = document.getElementById("kmRunText");
-    kmRunText.textContent = novoTexto;
-    kmRunText.className = "km-run" + novaClasse;
-}
+                      </p>
+                      <p><strong>2. DATA E HORÁRIOS</strong></p>
+                      <p>
+                          2.1. A corrida será realizada no dia 05 de maio de 2024. Os pontos de largada estão indicados na
+                          cláusula 3.1 abaixo.
+                      </p>
+                      <p>
+                          2.2. As largadas serão iniciadas nos seguintes horários:
+                      <p>a) 05 km - 6h15</p>
+                      <p>b) 10 km - 6h00</p>
+                      <p>c) 15 km - 5h45</p>
+                      <p>d) 21 km - 5h30</p>
 
-function changeActive(link) {
-    document.querySelectorAll("nav a").forEach(function (a) {
-        a.classList.remove("active");
-    });
-    link.classList.add("active");
-}
+                      </p>
+                      <p>
+                          2.3. Todos os participantes deverão se apresentar no local próximo a largada com, no mínimo, 30
+                          (trinta) minutos de antecedência, utilizando o seu número de peito e chip.
+                      </p>
+                      <p>2.4. Pelotões:
+                      <p>Pelotão A - até 03'29"</p>
+                      <p>Pelotão B - 03'30" - 03'59"</p>
+                      <p>Pelotão C - 04'00" - 04'29"</p>
+                      <p>Pelotão D - 04'30" - 04'59"</p>
+                      <p>Pelotão E - 05'00" - 05'29"</p>
+                      <p>Pelotão F - 05'30" - 05'59"</p>
+                      <p>Pelotão G - 06'00" - 06'29"</p>
+                      <p>Pelotão H - acima de 06'30"</p>
+                      </p>
+                      <p>
+                          2.5. Os atletas das categorias PCD - na Classe de Cadeirantes largarão 5 minutos antes dos demais
+                          por questões de segurança. Todas as demais classes PCD largam nos pelotões geral.
+                      </p>
+                      <p><strong>3. LOCAIS</strong></p>
+                      <p>
+                          3.1. A corrida terá 4 (quatro) pontos de largada em endereços distintos, de acordo com a distância
+                          selecionada pelo participante:
+                      <p>
+                          a) Zona Oeste - 5km - Memorial da América Latina - Rua Tagipuru, S/N, Barra Funda, São
+                          Paulo/SP;
+                      </p>
+                      <p>
+                          b) Centro - 10km - Pateo do Collegio, - Praça Pateo do Collegio, 2 , Centro Histórico de São
+                          Paulo, São Paulo/SP.
+                      </p>
+                      <p>c) Zona Leste 15km - Parque da Mooca - Rua Jaibarás, 360, Mooca, São Paulo/SP; e</p>
+                      <p>
+                          d) Zona Sul - 21km - Assembleia Legislativa de São Paulo - Palácio 9 de Julho - Av. Pedro
+                          Álvares Cabral, 201, Moema, São Paulo/SP.
+                      </p>
+                      </p>
+                      <p><strong>4. DISTÂNCIAS</strong></p>
+                      <p>4.1. A corrida será realizada considerando 4 (quatro) distâncias e percursos distintos:
+                      <p>a) 05 km</p>
+                      <p>b) 10 km</p>
+                      <p>c) 15 km</p>
+                      <p>d) 21 km</p>
+                      </p>
+                      <p>
+                          4.2. As corridas serão iniciadas em locais distintos, de acordo com a distância selecionada pelo
+                          participante, conforme especificado na cláusula 3.1 acima.
+                      </p>
+                      <p><strong>5. CHEGADA</strong></p>
+                      <p>
+                          5.1. O local de chegada da corrida, independente do local de partida, será na Mercado Livre Arena Pacaembu,
+                          localizado no endereço Praça Charles Miller, Pacaembu, São Paulo/SP,
+                          CEP 01234-010.
+                      </p>
+                      <p><strong>6. TEMPO MÁXIMO DE DURAÇÃO DA CORRIDA</strong></p>
+                      <p>
+                          6.1. A corrida terá sua duração máxima de acordo com a distância do percurso selecionada pelo
+                          participante, conforme abaixo especificado. O participante que não estiver dentro do tempo previsto,
+                          em qualquer trecho, será convidado a se retirar da prova. Após esses horários limites, os relógios e
+                          cronômetros da prova serão desligados. O participante que não estiver dentro do tempo projetado,
+                          em qualquer ponto do percurso, será convidado a retirar-se da competição, entregando o respectivo
+                          número de peito e chip ao Coordenador da Prova no local, finalizando a prova neste ponto. Esse
+                          procedimento é necessário em função dos horários limites acordados com as autoridades de
+                          trânsito. Caso o participante se recuse a finalizar a corrida, este assumirá a responsabilidade de                            transitar em vias abertas ao trânsito de veículos.
 
-document.querySelectorAll(".run-5k").forEach(function(element) {
-    element.addEventListener("click", function () {
-        mudarImagem(
-            "https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-5k.svg"
-        );
-        mudarConteudoKmRunText("5K", " classe-5k");
-        document.querySelectorAll(".run-5k, .run-10k, .run-15k, .run-21k").forEach(function (el) {
-            el.classList.remove("new-bg");
-        });
-        this.classList.add("new-bg");
-    });
-});
+                      <p>a) 05 km – 01:00:00</p>
+                      <p>b) 10 km – 01:30:00</p>
+                      <p>c) 15 km – 02:00:00</p>
+                      <p>d) 21 km – 03:00:00</p>
+                      </p>
+                      <p><strong>7. CAPACIDADE</strong></p>
+                      <p>
+                          7.1. A corrida terá capacidade máxima de participantes por modalidade:
+                      <p>05 km - 3.250 (três mil duzentos e cinquenta) - participantes</p>
+                      <p>10 km - 3.250 (três mil duzentos e cinquenta) – participantes</p>
+                      <p>15 km - 3.250 (três mil duzentos e cinquenta) – participantes</p>
+                      <p>21 km - 3.250 (três mil duzentos e cinquenta) – participantes</p>
+                      </p>
+                      <p><strong>8. GUARDA VOLUMES</strong></p>
+                      <p>8.1. Como cortesia, ficará à disposição do participante Guarda Volumes para pequenos objetos.</p>
+                      <p>
+                          8.2. As empresas organizadoras recomendam que não sejam deixados objetos de alto valor no
+                          Guarda Volumes, tais como: celulares, relógios, cartões de crédito, débito, dinheiro e documentos
+                          pessoais.
+                      </p>
+                      <p>
+                          8.3. O Guarda Volumes será disponibilizado nos respectivos pontos de largada e os pertences
+                          pessoais deixados nestes Guarda Volumes poderão ser retirados na Mercado Livre Arena Pacaembu,
+                          localizado no endereço Praça Charles Miller, Pacaembu, São Paulo/SP, CEP
+                          01234-010.
+                      </p>
+                      <p><strong>9. SANITÁRIOS</strong></p>
+                      <p>
+                          9.1. Terá à disposição sanitários portáteis em quantidade compatível com o número de participantes e
+                          de acordo com a legislação aplicável.
+                      </p>
+                      <p><strong>10. POSTOS DE HIDRATAÇÃO</strong></p>
+                      10.1. Serão disponibilizados ao longo do percurso postos de hidratação com água mineral a cada 2,5 km
+                      aproximadamente.
+                      <p><strong>11. LOCOMOÇÃO</strong></p>
+                      11.1. É de inteira responsabilidade do participante a locomoção de seu ponto de origem para os locais
+                      de largada da corrida.
+                      11.2. Da mesma forma, é de inteira responsabilidade do participante o retorno ao local de sua largada ou
+                      para o seu ponto de origem.
+                      11.3. As empresas organizadoras não terão qualquer responsabilidade ou ônus sobre as despesas
+                      advindas de transporte para a participação desta corrida.
+                      <p><strong>12. INSCRIÇÕES</strong></p>
+                      <p>
+                          12.1. O formulário de inscrição para a corrida será disponibilizado exclusivamente de forma online para o
+                          público. Os participantes poderão se inscrever de 12 de março até o dia 30 de abril de 2024 às
+                          23h59. As inscrições poderão ser encerradas antes desta data, caso atinja a capacidade máxima
+                          de participantes, prevista na cláusula 7.1 acima. As inscrições realizadas a partir de 14 de abril não
+                          terão nome no seu número de peito, apenas a numeração de identificação do corredor. Alterações
+                          de titularidade após esta data também não terão nomes atualizados.
+                      </p>
+                      <p>12.2. O valor da inscrição individual, por participante, será aplicado da seguinte forma:</p>
+                      <p>Básico 5km - R$189,00</p>
+                      <p>Básico 10km - R$219,00</p>
+                      <p>Básico 15km - R$239,00</p>
+                      <p>Básico 21km - R$259,00</p>
+                      <p>Premium 5km - R$239,00</p>
+                      <p>Premium 10km - R$259,00</p>
+                      <p>Premium 15km - R$269,00</p>
+                      <p>Premium 21km - R$289,00</p>
+                      <p>
+                          12.2.1. A diferença entre os ingressos básico e premium tem relação com os kits de corrida. A
+                          diferença entre os kits de corrida pode ser consultada na cláusula 15.1 abaixo.
+                      </p>
+                      <p>
+                          12.2.1. Clientes Itaú Uniclass poderão ter um desconto de 20% sobre o valor das inscrições para
+                          pagamentos realizados exclusivamente com cartão de crédito, limitado a 3 mil inscrições.
+                      </p>
+                      <p>
+                          12.2.2. A Fisia poderá, a seu exclusivo critério, alterar, a qualquer momento, o valor das inscrições,
+                          independente de aviso prévio.
+                      </p>
+                      <p>
+                          12.3. No ato da inscrição, o participante automaticamente aceita todos os termos do regulamento e
+                          assume total responsabilidade por sua participação.
+                      </p>
+                      <p>12.4. Os participantes não poderão ceder, sob nenhuma hipótese, seu número de peito para outrem.</p>
+                      <p>
+                          12.5. Será concedido um desconto de 50% aos participantes com 60 anos ou mais através do site do
+                          evento.
+                      </p>
+                      <p>
+                          12.6. O participante PcD das categorias CADEIRANTE (CAD), DEFICIÊNCIA VISUAL (DV),
+                          AMPUTADO – MEMBROS INFERIORES, AMPUTADO –MEMBROS SUPERIORES e DEFICIENTE INTELECTUAL (DI),
+                          deverá, no ato da inscrição, enviar o laudo médico comprobatório de sua especificidade
+                          ou sua classificação esportiva. No caso da necessidade de acompanhante/guia para
+                          realização da prova, é necessário que o participante PcD finalize a sua inscrição primeiro.
+                          Após essa conclusão, receberá um código para informar ao participante GUIA, para que assim,
+                          o mesmo consiga aplicar um desconto de 50% no valor da inscrição
+                      </p>
+                      <p>
+                          12.7. Para o participante PcD que não se enquadrar nas categorias supracitadas,
+                          não há a necessidade do envio do laudo ou classificação esportiva.
+                          O participante apenas deverá indicar sua deficiência no ato da inscrição
+                          por questões de acessibilidade.
+                      </p>
+                      <p>
+                          12.8. As empresas organizadoras poderão, a qualquer momento e sem aviso prévio, suspender ou
+                          prorrogar as datas ora previstas neste regulamento, assim como aumentar ou diminuir o limite de
+                          inscrições, em função de necessidades diversas, disponibilidade técnica ou questões estruturais.
+                      </p>
+                      <p>
+                          12.9. Os participantes poderão solicitar o cancelamento de sua inscrição em até 7 dias corridos a contar
+                          da compra de sua inscrição, respeitando um prazo mínimo de até 48h antes do evento. Para
+                          solicitar seu cancelamento, entre em contato pelo e-mail: <a href="mailto:sac@ticketsports.com.br">sac@ticketsports.com.br</a>.
+                          Não haverá devolução da quantia paga pela inscrição, caso o participante comunique a
+                          desistência da corrida fora do prazo previsto no art. 49 do Código de Defesa do Consumidor, qual
+                          seja, 7 (sete) dias úteis, a contar da data da compra do ingresso pela internet.
+                      </p>
+                      <p>
+                          12.10. Não haverá devolução dos valores caso o participante não esteja apto a realizar a prova por
+                          motivos médicos, de lesão ou caráter pessoal, apenas caso o participante se enquadre na regra
+                          prevista na cláusula 12.8 acima.
+                      </p>
+                      <p>
+                          12.11. Não haverá devolução dos valores caso o participante não esteja apto a realizar a prova de
+                          acordo com as regras deste regulamento, apenas caso o participante se enquadre na regra
+                          prevista na cláusula 12.8 acima.
+                      </p>
+                      <p>
+                          12.12. Os participantes são responsáveis pela veracidade das informações fornecidas, no ato da
+                          inscrição. No caso de fraude comprovada, o participante será desclassificado da prova e
+                          responderá por crime de falsidade ideológica e/ou documental.
+                      </p>
+                      <p><strong>13. IDADE MÍNIMA</strong></p>
+                      <p>
+                          13.1. As organizadoras da corrida seguirão as regras da CBAT que determina a idade mínima de
+                          participação sendo:
+                      </p>
+                      <p>
+                          a) <strong>PROVA DE 05 km</strong> - a idade mínima do participante, é de 14 (catorze) anos (completados
+                          até 31 de dezembro do ano da prova).
+                      </p>
+                      <p>
+                          b) <strong>PROVA DE 10 km</strong> - a idade mínima do participante, de 16 (dezesseis) anos (completados
+                          até 31 de dezembro do ano da prova).
+                      </p>
+                      <p>
+                          c) <strong>PROVA DE 15 km</strong> - a idade mínima do participante, de 18 (dezoito) anos (completados
+                          até 31 de dezembro do ano da prova).
+                      </p>
+                      <p>
+                          d) <strong>PROVA DE 21 km</strong> - a idade mínima do participante, de 18 (dezoito) anos (completados
+                          até 31 de dezembro do ano da prova).
+                      </p>
+                      <p>
+                          13.2. A definição de idade mínima deve-se ao cumprimento das Regras Oficiais da Confederação
+                          Brasileira de Atletismo.
+                      </p>
+                      <p>
+                          13.3. O participante menor de 18 (dezoito) anos deverá obrigatoriamente apresentar autorização por
+                          escrito, com firma reconhecida, dos pais ou responsáveis legais para realizar a corrida. A
+                          autorização deverá estar acompanhada de cópia de um documento de identidade que será retido
+                          no ato da retirada do kit.
+                      </p>
+                      <p>
+                          13.4. A idade a ser considerada, obrigatoriamente, para os efeitos de inscrição é a que o participante
+                          terá até o dia da corrida.
+                      </p>
+                      <p><strong>14. CATEGORIAS</strong></p>
+                      <p>14.1. A corrida acontecerá nas seguintes categorias divididas por gênero e distâncias, sendo essas:</p>
+                      <p>
+                          14.2. GERAL - Masculino e Feminino - 5km, 10km, 15km e 21km - Pessoas sem deficiência e
+                          pessoas com deficiência que NÃO se enquadrem nas categorias mencionadas nas cláusulas a
+                          seguir.
+                      </p>
+                      <p>
+                          14.3. CADEIRANTE (CAD) – Masculino e Feminino - 5km e 21km - Apenas cadeiras de rodas
+                          esportivas (3 rodas, duas grandes e uma pequena) serão permitidas, sendo obrigatório o uso do
+                          capacete. Não serão permitidos o uso de cadeiras de dia a dia, cadeiras motorizadas, hand cycles
+                          ou equipamentos com o auxílio de terceiros. Esses casos deverão se inscrever na categoria
+                          GERAL.
+                      </p>
+                      <p>
+                          14.4. DEFICIÊNCIA VISUAL (DV) – Masculino e Feminino - 5km e 21km - Atletas com cegueira total
+                          devem correr, obrigatoriamente, com o auxílio de um atleta-guia. Atletas com baixa visão, sendo
+                          que nessa condição é opcional a utilização do Guia.
+                          O atleta-guia não deverá, em momento algum, empurrar, puxar ou propelir o atleta. O método de
+                          condução deverá ser por meio de uma corda que irá ligar ambos, através dos braços, mãos ou
+                          dedos. O guia deverá ser identificado com o uso de um colete de cor laranja fornecido pela
+                          organização da corrida ( exemplo ).
+                      </p>
+                      <p>
+                          14.5. AMPUTADO – MEMBROS INFERIORES - Masculino e Feminino – 5km e 21km - Atletas com
+                          amputação de membros inferiores ou deficiência com limitação similar de movimentos. Nessa
+                          categoria o atleta pode-se valer do uso de prótese para possibilitar sua locomoção, mas não
+                          poderá usar muletas ou andador. PERFIL DE CLASSE : Amputação uni ou bilateral, abaixo acima
+                          do joelho ou sequela similar.
+                      </p>
+                      <p>
+                          14.6. AMPUTADO – MEMBROS SUPERIORES– Masculino e Feminino – 5km e 21km - Atletas com
+                          amputação de membros superiores ou deficiência com limitação de sequela similar de movimentos.
+                          Os atletas dessas classes podem usar próteses ou órteses para melhorar o balanço e equilíbrio
+                          corporal. PERFIL DE CLASSE: amputação uni ou bilateral, abaixo ou acima do cotovelo, ou
+                          sequela similar.
+                      </p>
+                      <p>
+                          14.7. DEFICIENTE INTELECTUAL (DI) – Masculino e Feminino – 5km e 21km - Atletas dessa
+                          classe competem utilizando as mesmas regras dos corredores regulares. O responsável pelo atleta
+                          deverá, no ato da inscrição, assumir a responsabilidade pela participação do atleta no evento. O
+                          laudo de confirmação da classe esportiva deverá ser emitido pela Confederação Brasileira de
+                          Desportos para Deficientes Intelectuais OU através de laudo em que o corredor deverá apresentar
+                          valor igual ou inferior a 85 pontos nos testes de QI reconhecidos pela INAS-FID, limitação
+                          significativa de comportamento conceitual e social adaptativo e habilidades adaptativas práticas.
+                      </p>
+                      <p>
+                          14.8. A inscrição para as categorias de pessoa com deficiência (PCD)
+                          acima citadas fica condicionada ao atleta apresentar a sua classificação
+                          esportiva ou documentação que comprove e se enquadre em uma das categorias
+                          do evento. Caso o participante não apresente nenhuma destas documentações,
+                          o mesmo disputará na categoria Geral.
+                      </p>
+                      <p><strong>15. KIT DE CORRIDA</strong></p>
+                      <p>15.1. Os participantes receberão o seguinte kit:</p>
+                      <p>Kit básico:</p>
+                      <p>01 (uma) camiseta;</p>
+                      <p>01 (uma) sacochila;</p>
+                      <p>01 (um) número de peito;</p>
+                      <p>04 (quatro) alfinetes; e</p>
+                      <p>01 (um) chip de cronometragem descartável - inserido no próprio número.</p>
+                      <p><strong>Kit premium:</strong></p>
+                      <p>01 (uma) camiseta;</p>
+                      <p>01 (uma) sacochila;</p>
+                      <p>01 (um) número de peito;</p>
+                      <p>04 (quatro) alfinetes;</p>
+                      <p>01 (um) chip de cronometragem descartável - inserido no próprio número; e</p>
+                      <p>01 (uma) viseira.</p>
+                      <p>15.2. Serão produzidas camisetas da seguinte forma e tamanhos:</p>
+                      <p>Feminina nos tamanhos PP, P, M, G e GG</p>
+                      <p>Masculina P, M G, e GG</p>
+                      <p>
+                          15.3. As empresas organizadoras seguirão as informações fornecidas na inscrição para a montagem
+                          dos kits.
+                      </p>
+                      <p>15.4. O tamanho das camisetas estará sujeito a alteração, de acordo com a disponibilidade de estoque.</p>
+                      <p>
+                          15.5. O participante não poderá alegar impossibilidade de participar do evento, caso não tenha camiseta
+                          em tamanho que lhe sirva.
+                      </p>
+                      <p><strong>16. RETIRADA DOS KITS DA CORRIDA</strong></p>
+                      <p>16.1. A entrega de kits acontecerá da seguinte forma:</p>
+                      <p>Data: 03 e 04 de maio de 2024</p>
+                      <p>Horário: 10h00 às 20h00</p>
+                      <p>Local: Expo Nike</p>
+                      <p>
+                          Endereço: Praça Charles Miller - Pacaembu, São Paulo - SP, 01234-010 (Pavilhão de Tecnologia
+                          Mercado Livre Arena Pacaembu).
+                      </p>
+                      <p>
+                          16.2. O Kit de corrida somente poderá ser retirado mediante apresentação do documento de
+                          confirmação da inscrição, junto com respectivo comprovante de pagamento.
+                      </p>
+                      <p>
+                          16.3. É obrigatória a apresentação de documento oficial com foto do participante inscrito na corrida para
+                          a retirada do kit, além dos documentos descritos na cláusula acima.
+                      </p>
+                      <p>
+                          16.4. O kit de corrida somente poderá ser retirado por terceiros mediante a apresentação de autorização
+                          por escrito da pessoa inscrita na corrida, do protocolo de inscrição, comprovante de pagamento e
+                          documento oficial com foto do participante inscrito.
+                      </p>
+                      <p>
+                          16.5. O participante que não retirar o seu kit de corrida na data e horário descritos na cláusula 16.1
+                          acima, perderá o direito ao kit e não poderá participar da corrida.
+                      </p>
+                      <p>
+                          16.6. Os participantes do benefício do idoso, não poderão solicitar à terceiros que retirem os seus kits.
+                          Neste caso, o kit somente poderá ser entregue exclusivamente ao participante inscrito na corrida,
+                          mediante a apresentação de documento de identificação com foto.
+                      </p>
+                      <p>16.7. Não serão entregues kits de corrida no dia do evento e nem após o evento.</p>
+                      <p>16.8. O participante no momento da retirada do kit deve conferir se os dados estão corretos.</p>
+                      <p><strong>17. CRONOMETRAGEM / REGISTRO DE TEMPO</strong></p>
+                      <p>17.1. A corrida será registrada de forma eletrônica por meio de um chip.</p>
+                      <p>
+                          17.2. Cada participante terá um número de peito com chip destinado exclusivamente ao registro de
+                          tempo. O chip NÃO realizará a coleta e tratamento de outros dados pessoais do participante.
+                      </p>
+                      <p>17.3. O participante que não concluir a prova, não terá o registro de seu tempo.</p>
+                      <p>
+                          17.4. O uso do chip de cronometragem é obrigatório, o não uso poderá acarretar na desclassificação do
+                          participante.
+                      </p>
+                      <p>
+                          17.5. Caso seja observada a falta do número de peito ou do chip no participante, este será
+                          desclassificado automaticamente.
+                      </p>
+                      <p>
+                          17.6. Para evitar inutilização do chip de cronometragem, é recomendado não deixá-lo próximo a
+                          aparelhos celulares, televisão ou computadores, não o dobrar, amassar e/ou rasurar.
+                      </p>
+                      <p>
+                          17.7. O número de identificação, denominado número de peito, deverá ser fixado com alfinetes
+                          na altura do peito, à frente da vestimenta que estiver utilizando. O número de peito NÃO
+                          poderá ficar oculto sob nenhuma hipótese. O número de peito NÃO pode ser alterado,
+                          rasurado, mutilado, reduzido, deverá ser utilizado na íntegra como foi recebido da
+                          organização da prova. Qualquer desrespeito a esta utilização o participante será
+                          desclassificado e excluído da corrida. O atleta cadeirante deverá fixar o seu número na parte
+                          de trás da cadeira.
+                      </p>
+                      <p>
+                          17.8. O chip de cronometragem, fixado no verso do número de peito, é pessoal e intransferível. A
+                          guarda, manutenção e manuseio é de única responsabilidade do participante. O chip não poderá
+                          ser trocado, emprestado ou compartilhado com outro participante. A utilização inadequada do chip
+                          acarretará a desclassificação dos envolvidos, sendo denunciados como falsidade ideológica.
+                      </p>
+                      <p><strong>18. RESULTADOS</strong></p>
+                      <p>
+                          18.1. Os resultados da corrida serão publicados no site oficial do evento e site da empresa de
+                          cronometragem, com a identificação dos participantes. As empresas organizadoras não se
+                          responsabilizam por resultados publicados em outros sites, que não o oficial. Os resultados
+                          poderão ter atualizações devido às revisões e desclassificações.
+                      </p>
+                      <p><strong>19. PREMIAÇÃO</strong></p>
+                      19.1. Será distribuído para todos os participantes, independentemente de sua classificação, assim que
+                      cruzarem a linha de chegada dentro do tempo limite, e desde que não seja observada nenhuma
+                      irregularidade, uma medalha de participação.
+                      19.2. A entrega da medalha de participação está condicionada à entrega da tarja destacável que estará
+                      junto ao número de peito do participante.
+                      19.3. Serão premiados com um troféu, os participantes que chegarem em 1º, 2º, 3º lugar das categorias
+                      feminina e masculino público geral das 4 distâncias, totalizando 24 (prêmios).
+                      19.4. Serão contemplados com troféu nas categorias das classes PCD indicadas na cláusula 14,  
+                      feminino e masculino as/os atletas em 1º, 2⁠º e 3⁠º lugar.
+                      19.5. Apenas categorias com o mínimo de 5 atletas serão elegíveis para premiação.
+                      <p><strong>20. CONSIDERAÇÕES GERAIS</strong></p>
+                      <p>
+                          20.1. Na hipótese da corrida ser cancelada ou alterada por motivos de força maior,
+                          como em decorrência de catástrofes, desastres naturais, epidemias, pandemias ou similares,
+                          ou por determinações de órgãos públicos, as empresas organizadoras ficam isentas de qualquer
+                          responsabilidade quanto a devolução de qualquer valor investido pelo participante para
+                          participar da corrida.
+                      </p>
+                      <p>
+                          20.2. Todo participante que concluir sua inscrição na corrida está declarando que leu este regulamento
+                          em sua íntegra e está de acordo.
+                      </p>
+                      <p>
+                          20.3. Por segurança, recomenda-se aos participantes a realização de rigorosa avaliação médica para a
+                          participação corrida.
+                      </p>
+                      <p>
+                          20.4. O participante é o único responsável pela decisão de participar da prova, avaliando sua condição
+                          física e julgando por si só se deve ou não continuar ao longo da competição.
+                      </p>
+                      <p>
+                          20.5. A corrida deve ser realizada de forma individual, é proibido o auxílio de terceiros, bem como o uso
+                          de qualquer recurso tecnológico sem prévia autorização por escrito das empresas organizadoras.
+                      </p>
+                      <p>
+                          20.6. Ao participar da corrida, o participante autoriza automaticamente, de forma gratuita, o uso de
+                          todos os direitos de personalidade capturados no dia da corrida, às empresas organizadoras do
+                          evento. As imagens capturas da prova poderão ser usadas em materiais de marketing, redes
+                          sociais e outras mídias sociais, de qualquer natureza e a qualquer tempo, sem direito à aprovação
+                          prévia.
+                      </p>
+                      <p>
+                          20.7. Todos os participantes do evento e público em geral, autorizam o uso de sua imagem, nome e
+                          som de voz às empresas organizadoras em caráter definitivo, a título gratuito e por prazo
+                          indeterminado. Os participantes estão cientes de que as empresas organizadoras ficam
+                          autorizados a executar livremente montagens com as imagens capturadas na corrida, não
+                          havendo limite de reprodução do material.
+                      </p>
+                      <p>
+                          20.8. Ao participar da corrida, nos termos deste Regulamento, o participante está automaticamente
+                          autorizando, de forma gratuita e definitiva, as empresas organizadoras a utilizarem seu nome,
+                          imagem e som de voz capturados na corrida, em qualquer veículo de comunicação ou mídia,
+                          incluindo, mas não se limitando a, materiais impressos, televisão e para quaisquer outros fins
+                          comerciais.
+                      </p>
+                      <p>
+                          20.9. A participação ou comparecimento à corrida envolve riscos inerentes e perigo de acidentes, danos
+                          pessoais ou físicos e danos ou perdas materiais. As empresas organizadoras do evento não
+                          serão responsáveis por eventuais lesões físicas, deficiências, mortes, perdas materiais ou danos
+                          morais.
+                      </p>
+                      <p>
+                          20.10. O participante declara estar ciente de que não portará utilizar durante o percurso da corrida, ou
+                          em outra área de visibilidade no evento, ou meios de divulgação e promoção, nenhum material
+                          publicitário, promocional ou político, sem a devida autorização por escrito das empresas
+                          organizadoras, sob pena de desclassificação.
+                      </p>
+                      <p>
+                          20.11. Será disponibilizado a todos os participantes serviços de assistência médica e segurança em todo
+                          o percurso da corrida. Além disso, ficará à disposição dos participantes banheiro químico e
+                          guarda-volumes.
+                      </p>
+                      <p>
+                          20.12. Na hipótese de atendimento emergencial aos participantes, será disponibilizado serviço de
+                          ambulância para remoção ao hospital mais próximo.
+                      </p>
+                      <p>
+                          20.13. As empresas organizadoras e quaisquer órgãos relacionados à modalidade (como CBAt, FPA e
+                          Agência Brasileira de Combate ao Doping), reservam-se ao direito de realizar, ou não, o exame
+                          antidoping em participantes vencedores da prova, em cada categoria e modalidade.
+                      </p>
+                      <p>
+                          20.14. As empresas organizadoras poderão alterar este Regulamento, total ou parcialmente, sem aviso
+                          prévio.
+                      </p>
+                      <p>
+                          20.15. A corrida poderá ser cancelada caso haja condições adversas de tempo ou outras que coloquem
+                          em risco a integridade física dos participantes.
+                      </p>
+                      <p>
+                          20.16. As dúvidas ou omissões deste Regulamento ou no decorrer da prova serão dirimidas pelas
+                          empresas organizadoras.
+                      </p>
+                      <p>
+                          20.17. O evento será realizado, em quaisquer que sejam as condições climáticas, desde que não
+                          ofereçam riscos aos participantes.
+                      </p>
+                      <p>
+                          20.18. As distâncias mencionadas, poderão sofrer alterações para mais ou para menos, conforme
+                          condições do local de percurso da corrida.
+                      </p>
+                      <p>
+                          20.19. Os inscritos na corrida estão automaticamente de acordo e aceitam todos os termos deste
+                          Regulamento, assim como com todas as regras descritas e estipuladas.
+                      </p>
+                      <p>
+                          20.20. O comportamento inadequado, o uso de linguagem abusiva, gestos, agressão verbal ou de
+                          qualquer espécie poderão acarretar em desclassificação.
+                      </p>
+                      <p>
+                          20.21. É de inteira responsabilidade do participante danos causados por suas atitudes, seja ao
+                          patrimônio público, a terceiros, a outros participantes, sendo de sua única exclusiva
+                          responsabilidade do autor.
+                      </p>
+                      <p>
+                          20.22. Não será permitida a utilização de qualquer meio auxiliar durante a prova para se alcançar
+                          qualquer tipo de vantagem.
+                      </p>
+                      <p>
+                          20.23. É proibido ultrapassar as grades que delimitam a largada, percurso, chegada, ou mesmo qualquer
+                          sinalização de proteção e delimitação de espaço, ficando o infrator sujeito às penalidades tais
+                          como desclassificação da prova.
+                      </p>
+                      <p>
+                          20.24. O participante assume, por livre e espontânea vontade, os riscos e suas consequências
+                          decorrentes da sua participação na corrida, sejam eles danos morais, físicos, materiais ou de
+                          qualquer natureza. Fica as organizadoras da corrida, bem como quaisquer dos patrocinadores e
+                          apoiadores envolvidos, isentos da responsabilidade.
+                      </p>
+                      <p>
+                          20.25. As empresas organizadoras da corrida poderão cancelar ou adiar a data da prova, seu percurso
+                          ou até mesmo suspendê-la, por qualquer questão que ponha em risco a segurança dos
+                          participantes, tais como pandemia, atos de vandalismo e motivos de força maior ou casos
+                          fortuitos. Caso ocorra o adiamento ou cancelamento da corrida, as empresas organizadoras
+                          avisarão o público e os participantes, através dos mesmos meios utilizados para divulgação do
+                          evento, explicando as razões que as levaram a tal decisão, sem qualquer ônus à organizadora.
+                      </p>
+                      <p>20.26. O conteúdo deste Regulamento pode ser alterado a qualquer momento sem aviso prévio.</p>
+                      <p><strong>21. DADOS PESSOAIS E LGPD</strong></p>
+                      <p>
+                          21.1. Mediante o consentimento do participante no momento da inscrição, a Fisia, Distribuidora Nike no
+                          Brasil, pode enviar comunicações de marketing sobre outras corridas Nike Run, eventos, produtos
+                          e ofertas da marca Nike. A qualquer momento, o participante pode revogar o consentimento para
+                          finalidade de comunicação de marketing clicando em “descadastre-se” no e-mail recebido. O
+                          participante também poderá revogar o consentimento e exercer os demais direitos previstos na
+                          Lei Geral de Proteção de Dados - LGPD (Lei n° 13.709/2018) no Portal do Titular.
+                      </p>
+                      <p>
+                          21.2. Ao se inscrever na corrida, o participante concorda com o tratamento dos dados pessoais para
+                          fins de inscrição na corrida.
+                      </p>
+                      <p>
+                          21.3. Ao se inscrever e participar do evento, o participante concorda com o tratamento do seu nome,
+                          imagem e voz pelo controlador Fisia para fins de divulgação da corrida, que pode ocorrer com
+                          montagens de imagens capturadas e publicação em veículos de mídia, incluindo, mas não se
+                          limitando a, materiais impressos, televisão e para quaisquer outros fins comerciais.
+                      </p>
+                      <p>
+                          21.4. Ao se inscrever no evento, você concorda com o tratamento dos seus dados pessoais pela Fisia,
+                          Distribuidora Nike no Brasil descrito na <a href="https://www.nike.com.br/politica-privacidade" target="_blank">Política de Privacidade</a>.
+                      </p>
+                      <p><strong>22. CONTATO</strong></p>
+                      <p>
+                          22.1. Em caso de dúvidas, o participante poderá entrar em contato através do e-mail:
+                          <a href="mailto:atendimento@x3mbrasil.com">atendimento@x3mbrasil.com.</a>
+                      </p>
+                      <p>TERMO DE RESPONSABILIDADE – NIKE RUN</p>
+                      <p>Eu, abaixo qualificado, declaro, para os devidos fins de direito que:</p>
+                      <p>1. Os dados cadastrais por mim fornecidos abaixo são verdadeiros.</p>
+                      <p>
+                          2. Li, entendi e aceito totalmente os termos do <strong>Regulamento Oficial da Nike Run</strong>
+                          e a Política de Privacidade da Fisia, Distribuidora da Nike no Brasil.
+                      </p>
+                      <p>
+                          3. Estou em<strong> plenas condições físicas para participar da prova</strong>, tendo consultado
+                          recentemente um médico e realizado os exames que ele julgou necessário para avaliar minha saúde.
+                          Tenho ciência de que a Equipe de Saúde disponibilizada pelas empresas
+                          organizadoras não efetuará nenhum tipo de avaliação médica prévia à prova,
+                          cabendo a mim a responsabilidade por decidir participar dela ou não.
+                      </p>
+                      <p>
+                          4. Assumo, exclusivamente, todos os riscos e consequências da minha participação na corrida,
+                          que incluem possibilidade de invalidez e morte.
+                      </p>
+                      <p>
+                          5. Assumo minhas despesas de transporte, hospedagem, inscrição, preparação, alimentação, seguros
+                          e quaisquer outras despesas necessárias ou provenientes da minha participação na corrida, antes,
+                          durante e depois da prova, mesmo que haja cancelamento da mesma por questões de segurança
+                          pública, dentre outras.
+                      </p>
+                      <p>
+                          6. Autorizo expressamente o uso de minha imagem e voz, capturados ao longo da corrida pelas
+                          empresas organizadoras, por tempo indeterminado e de forma gratuita, para serem utilizadas para
+                          quaisquer fins, inclusive fins publicitários e de marketing. Autorizo também, em idênticas condições,
+                          as ações que eventualmente venham a ser realizadas pelas empresas organizadoras, como o envio
+                          de mensagens informativas e promocionais desta corrida ou produtos comercializados pela Fisia, de
+                          outras provas congêneres e de seus patrocinadores, apoiadores e empresas participantes via
+                          e-mail, carta, torpedos SMS, dentre outros, para meus telefones e endereços cadastrados na
+                          inscrição.
+                      </p>
+                      <p>
+                          7. Estou ciente de que é de minha exclusiva responsabilidade a obtenção e guarda de todo o material
+                          e equipamentos necessários para minha participação na corrida. Aceito não portar, exibir ou utilizar
+                          durante a corrida nenhum material de cunho político, promocional ou publicitário, sem autorização
+                          por escrito das empresas organizadoras, assim como também não portar arma, material perigoso
+                          ou objeto que ponha em risco a segurança dos participantes.
+                      </p>
+                      <p>
+                          8. Tenho ciência de que haverá áreas de acesso restrito na corrida, destinadas aos prestadores de
+                          serviço e imprensa, nas quais não poderei entrar, cabendo a mim respeitar tais restrições.
+                      </p>
+                      <p>
+                          9. Autorizo os membros da Equipe de Saúde da corrida a assistir-me, assim como a realizar em mim
+                          todos os procedimentos necessários para assegurar a minha vida, tanto durante quanto após a
+                          prova. Estou ciente de que a Equipe de Saúde da prova tem como objetivo a prestação de primeiros
+                          socorros e o atendimento a intercorrências médicas de menor importância, sendo que, em casos
+                          mais graves, será providenciada a remoção dos atendidos para hospitais de retaguarda escolhidos
+                          pelas <strong>ORGANIZADORA</strong>.
+                      </p>
+                      <p>NOME COMPLETO</p>
+                      <p>EQUIPE</p>
+                      <p>IDADE</p>
+                      <p>R.G.</p>
+                      <p>CPF</p>
+                      <p>TELEFONE</p>
+                      <p>EMAIL</p>
+                      <p>LOCAL/DATA _____________________ ASSINATURA _________________________</p>
+                      <p>
+                          AUTORIZAÇÃO PARA RETIRADA DE NÚMERO DE PEITO POR TERCEIROS
+                          NIKE
+                      </p>
+                      <p>
+                          Eu, abaixo qualificado, autorizo
+                          _____________________________,
+                      </p>
+                      <p>
+                          portador do RG nº_______________________________, a retirar em meu nome o NÚMERO DE PEITO e
+                          CHIP para minha participação e/ou da minha equipe na prova Nike Run.
+                      </p>
+                      <p>Local/Data: ______________________________</p>
+                      <p>Nome do Participante: ______________________________</p>
+                      <p>Prova: ______________________________</p>
+                      <p>RG: ______________________________</p>
+                      <p>Assinatura: _____________________</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="formulario" id="conosco">
+          <div class="contact">
+              <h2>FALE CONOSCO</h2>
+          <div class="wrapper-form">
+              <form id="form-fale-conosco">
+                  <label for="">NOME*</label>
+                  <input type="text" id="name" name="nome" />
+                  <label for="">E-MAIL*</label>
+                  <input type="email" id="email" name="email" />
+                  <label for="">TELEFONE*</label>
+                  <input type="tel" id="phone" name="phone" />
+                  <label for="">MENSAGEM*</label>
+                  <input type="text" id="message" class="message" name="message" />
+                  <button id="submit-fale-conosco">
+                      ENVIAR MENSAGEM
+                  </button>
+              </form>
+          </div>
+      </div>
+      <div class="faq" id="faq">
+          <div class="box-faq">
+              <h2>FAQ</h2>
+              <a href="https://storagefileta.blob.core.windows.net/ticketagora/arquivos/evento/38315/06a08f01f6a541d98893fd64800dd970638457648829392868.pdf" target="_blank">
+                  <input type="button" value="VISUALIZAR FAQ" />
+              </a>
+              
+          </div>
+      </div>
+      <div class="patrocinador">
+          <h2>PATROCINADOR</h2>
+          <div class="logo-patrocinador">
+              <img src="https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/logo_itau_nike.svg"
+                   alt="" />
+          </div>
+      </div>
+  </div>
 
-document.querySelectorAll(".run-10k").forEach(function(element) {
-    element.addEventListener("click", function () {
-        mudarImagem(
-            "https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-10k.svg"
-        );
-        mudarConteudoKmRunText("10K", " classe-10k");
-        document.querySelectorAll(".run-5k, .run-10k, .run-15k, .run-21k").forEach(function (el) {
-            el.classList.remove("new-bg");
-        });
-        this.classList.add("new-bg");
-    });
-});
-
-document.querySelectorAll(".run-15k").forEach(function(element) {
-    element.addEventListener("click", function () {
-        mudarImagem(
-            "https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-15k.svg"
-        );
-        mudarConteudoKmRunText("15K", " classe-15k");
-        document.querySelectorAll(".run-5k, .run-10k, .run-15k, .run-21k").forEach(function (el) {
-            el.classList.remove("new-bg");
-        });
-        this.classList.add("new-bg");
-    });
-});
-
-document.querySelectorAll(".run-21k").forEach(function(element) {
-    element.addEventListener("click", function () {
-        mudarImagem(
-            "https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/mapa-nike-21k.svg"
-        );
-        mudarConteudoKmRunText("21K", " classe-21k");
-        document.querySelectorAll(".run-5k, .run-10k, .run-15k, .run-21k").forEach(function (el) {
-            el.classList.remove("new-bg");
-        });
-        this.classList.add("new-bg");
-    });
-});
-
-document.querySelectorAll(".kit-corredor-basico").forEach(function(element) {
-    element.addEventListener("click", function () {
-        document.querySelectorAll(".kit-basico").forEach(function (el) {
-            el.style.display = "block";
-        });
-        document.querySelectorAll(".kit-premium").forEach(function (el) {
-            el.style.display = "none";
-        });
-        kitImagem(
-            "https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/kit_corredor.svg"
-        );
-        document.querySelectorAll(".kit-corredor-basico, .kit-corredor-premium").forEach(function (el) {
-            el.classList.remove("new-bg");
-        });
-        this.classList.add("new-bg");
-    });
-});
-
-document.querySelectorAll(".kit-corredor-premium").forEach(function(element) {
-    element.addEventListener("click", function () {
-        document.querySelectorAll(".kit-basico").forEach(function (el) {
-            el.style.display = "none";
-        });
-        document.querySelectorAll(".kit-premium").forEach(function (el) {
-            el.style.display = "block";
-        });
-        kitImagem(
-            "https://cdn.ticketagora.com.br/ticketagora/site/Nike-2024-SP/kit_corredor_premium.svg"
-        );
-        document.querySelectorAll(".kit-corredor-premium, .kit-corredor-basico").forEach(function (el) {
-            el.classList.remove("new-bg");
-        });
-        this.classList.add("new-bg");
-    });
-});
-
-document.getElementById("submit-fale-conosco").addEventListener("click", function () {
-    let nome = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let phone = document.getElementById("phone").value;
-    let mensagem = document.getElementById("message").value;
-
-    if (!nome || !email || !phone || !mensagem) {
-        return alert("Verifique todos os campos e tente novamente.");
-    }
-
-    this.disabled = true;
-
-    var form = document.getElementById("form-fale-conosco");
-    var formdata = new FormData(form);
-
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/Calendario/FalarConoscoNike", true);
-    xhr.onload = function () {
-        if (xhr.status === 200) {
-            alert("Enviado com sucesso.");
-        } else {
-            alert("Erro ao enviar. Verifique se todos os campos estão preenchidos corretamente.");
-        }
-        document.getElementById("submit-fale-conosco").disabled = false;
-    };
-    xhr.send(formdata);
-});
-     </script>
+    <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   </body>
 </html>
