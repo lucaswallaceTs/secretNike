@@ -1,4 +1,4 @@
-const runningDate = new Date("2024-05-05T08:00:00");
+const runningDate = new Date("2024-07-14T08:00:00");
 
 function updateCountdown() {
     const currentDate = new Date();
