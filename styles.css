@@ -410,13 +410,25 @@ body {
             display: flex;
             max-width: 1200px;
             width: 1200px;
-            background-color: #F3EFEB;
+            background: rgba(255, 68, 0, 1);
             align-items: center;
+            margin: 48px 0px 0px 0px;
+        }
+        .kit-basico {
+            width: 65%;
         }
 
         .kit-items {
             padding: 0px 56px;
             width: calc(50% - 112px);
+        }
+        .nike-expo p{
+            margin: 0px 10px !important;
+        }
+        .icon-expo{
+            display: flex;
+            align-items: flex-start;
+            margin: 4px 0px;
         }
 
             .kit-items h2 {
@@ -430,8 +442,45 @@ body {
                 margin: 24px 0px;
                 font-size: 16px;
                 font-weight: 400;
+                color: #FFF;
             }
-
+        .wrapper-expo {
+            padding: 50px 56px;
+            width: calc(50% - 112px);
+            background: #F5F5F5;
+        }
+        .wrapper-expo h3{
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .cronograma-expo-nike{
+            display: flex;
+        }
+        .cronograma-expo-nike p {
+            font-size: 9px;
+            margin: 5px 0px 0px 0px;
+            display: flex;
+        }
+        .line-expo{
+            margin: 0px 8px 0px 0px;
+        }
+        .line-expo img{
+            height: 340px;
+            margin-top: 8px;
+        }
+        .orange-expo-nike{
+            padding: 4px;
+            border-radius: 5px;
+            background-color: #FF4400;
+            width: fit-content;
+            margin: 15px 0px;
+            color: white;
+            font-weight: 600;
+            font-size: 12px;
+        }
+        .orange-expo-nike:first-child{
+            margin-top: 0px;
+        }
         .banner-kit {
             width: 50%;
             margin-bottom: 80px;
@@ -833,7 +882,6 @@ body {
 
             .kit-items {
                 width: calc(100% - 32px);
-                background: #F3EFEB;
                 padding: 40px 16px 0px 16px;
                 font-size: 14px;
             }
@@ -843,7 +891,13 @@ body {
                     font-weight: 900;
                     line-height: 30px;
                 }
-
+            .wrapper-expo {
+                width: calc(100% - 20px) !important;
+                padding: 10px 10px 40px 10px;
+            }
+            .kit-basico{
+                width: 80%;
+            }
             #kitImage {
                 width: 100%;
                 margin: 40px 0px 0px 0px;
@@ -855,7 +909,6 @@ body {
 
             .regulation {
                 width: 100%;
-                margin-top: 32px;
             }
 
             .title-regulation {
