@@ -797,6 +797,10 @@ body {
             .meet-banner {
                 width: 100%;
             }
+                    
+            .line-expo{
+                display: none;
+            }
 
             .meet {
                 width: calc(100% - 32px);
